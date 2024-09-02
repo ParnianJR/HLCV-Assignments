@@ -1,0 +1,2 @@
+Please consider that questions 1, 2, and 3 are implemented in file exercise-3-Q1-Q2-Q3.ipynb
+and question 4 is developled in file exercise-3-Q4.ipynb
