@@ -1,0 +1,722 @@
+2024-06-09 20:51:07,820:WARNING : Warning: visualization (Tensorboard) is configured to use, but currently not installed on this machine. Please install TensorboardX with 'pip install tensorboardx', upgrade PyTorch to version >= 1.1 to use 'torch.utils.tensorboard' or turn off the option in the 'config.json' file.
+2024-06-09 20:51:07,867:INFO : ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (4): Dropout2d(p=0.0, inplace=False)
+    (5): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (6): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): ReLU()
+    (8): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (9): Dropout2d(p=0.0, inplace=False)
+    (10): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (11): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): ReLU()
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): Dropout2d(p=0.0, inplace=False)
+    (15): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (16): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (17): ReLU()
+    (18): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (19): Dropout2d(p=0.0, inplace=False)
+    (20): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (21): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (22): ReLU()
+    (23): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (24): Dropout2d(p=0.0, inplace=False)
+    (25): Flatten(start_dim=1, end_dim=-1)
+    (26): Linear(in_features=512, out_features=512, bias=True)
+    (27): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+2024-06-09 20:51:07,867:INFO : ------------ New Training Session ------------
+2024-06-09 20:51:07,867:DEBUG : ==> Start Training Epoch 1/50, lr=0.002000 
+2024-06-09 20:51:51,257:DEBUG : ==> Finished Epoch 1/50.
+2024-06-09 20:51:51,257:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-09 20:52:07,832:DEBUG : ++> Finished evaluating epoch 1.
+2024-06-09 20:52:07,832:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 20:52:07,863:INFO : Checkpoint saved.
+2024-06-09 20:59:52,529:WARNING : Warning: visualization (Tensorboard) is configured to use, but currently not installed on this machine. Please install TensorboardX with 'pip install tensorboardx', upgrade PyTorch to version >= 1.1 to use 'torch.utils.tensorboard' or turn off the option in the 'config.json' file.
+2024-06-09 20:59:54,627:INFO : ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (4): Dropout2d(p=0.0, inplace=False)
+    (5): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (6): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): ReLU()
+    (8): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (9): Dropout2d(p=0.0, inplace=False)
+    (10): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (11): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): ReLU()
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): Dropout2d(p=0.0, inplace=False)
+    (15): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (16): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (17): ReLU()
+    (18): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (19): Dropout2d(p=0.0, inplace=False)
+    (20): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (21): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (22): ReLU()
+    (23): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (24): Dropout2d(p=0.0, inplace=False)
+    (25): Flatten(start_dim=1, end_dim=-1)
+    (26): Linear(in_features=512, out_features=512, bias=True)
+    (27): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+2024-06-09 20:59:54,627:INFO : ------------ New Training Session ------------
+2024-06-09 20:59:54,627:DEBUG : ==> Start Training Epoch 1/50, lr=0.002000 
+2024-06-09 21:00:39,698:DEBUG : ==> Finished Epoch 1/50.
+2024-06-09 21:00:39,714:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-09 21:00:56,898:DEBUG : ++> Finished evaluating epoch 1.
+2024-06-09 21:00:56,898:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:00:56,926:INFO : Checkpoint saved.
+2024-06-09 21:00:56,926:INFO : Saved model on eval based on eval_top1 at this step. Previous: -inf, Current0.3708000000000001
+2024-06-09 21:00:56,926:INFO :     epoch: 1.00000
+2024-06-09 21:00:56,926:INFO :     loss: 1.46727
+2024-06-09 21:00:56,926:INFO :     top1: 0.44971
+2024-06-09 21:00:56,926:INFO :     top5: 0.91053
+2024-06-09 21:00:56,926:INFO :     eval_loss: 1.91518
+2024-06-09 21:00:56,926:INFO :     eval_top1: 0.37080
+2024-06-09 21:00:56,926:INFO :     eval_top5: 0.86260
+2024-06-09 21:00:56,926:DEBUG : ==> Start Training Epoch 2/50, lr=0.002000 
+2024-06-09 21:01:40,694:DEBUG : ==> Finished Epoch 2/50.
+2024-06-09 21:01:40,694:DEBUG : ++> Evaluate at epoch 2 ...
+2024-06-09 21:01:57,693:DEBUG : ++> Finished evaluating epoch 2.
+2024-06-09 21:01:57,693:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:01:57,719:INFO : Checkpoint saved.
+2024-06-09 21:01:57,719:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.3708000000000001, Current0.5618
+2024-06-09 21:01:57,719:INFO :     epoch: 2.00000
+2024-06-09 21:01:57,719:INFO :     loss: 1.05110
+2024-06-09 21:01:57,719:INFO :     top1: 0.62440
+2024-06-09 21:01:57,719:INFO :     top5: 0.96236
+2024-06-09 21:01:57,719:INFO :     eval_loss: 1.24192
+2024-06-09 21:01:57,719:INFO :     eval_top1: 0.56180
+2024-06-09 21:01:57,719:INFO :     eval_top5: 0.93900
+2024-06-09 21:01:57,719:DEBUG : ==> Start Training Epoch 3/50, lr=0.002000 
+2024-06-09 21:02:41,523:DEBUG : ==> Finished Epoch 3/50.
+2024-06-09 21:02:41,523:DEBUG : ++> Evaluate at epoch 3 ...
+2024-06-09 21:02:58,690:DEBUG : ++> Finished evaluating epoch 3.
+2024-06-09 21:02:58,690:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:02:58,736:INFO : Checkpoint saved.
+2024-06-09 21:02:58,736:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.5618, Current0.6497999999999999
+2024-06-09 21:02:58,736:INFO :     epoch: 3.00000
+2024-06-09 21:02:58,736:INFO :     loss: 0.88971
+2024-06-09 21:02:58,736:INFO :     top1: 0.68862
+2024-06-09 21:02:58,736:INFO :     top5: 0.97391
+2024-06-09 21:02:58,736:INFO :     eval_loss: 1.03187
+2024-06-09 21:02:58,736:INFO :     eval_top1: 0.64980
+2024-06-09 21:02:58,736:INFO :     eval_top5: 0.96000
+2024-06-09 21:02:58,736:DEBUG : ==> Start Training Epoch 4/50, lr=0.002000 
+2024-06-09 21:03:42,517:DEBUG : ==> Finished Epoch 4/50.
+2024-06-09 21:03:42,517:DEBUG : ++> Evaluate at epoch 4 ...
+2024-06-09 21:03:59,680:DEBUG : ++> Finished evaluating epoch 4.
+2024-06-09 21:03:59,680:INFO :     epoch: 4.00000
+2024-06-09 21:03:59,680:INFO :     loss: 0.76660
+2024-06-09 21:03:59,680:INFO :     top1: 0.73722
+2024-06-09 21:03:59,680:INFO :     top5: 0.97958
+2024-06-09 21:03:59,680:INFO :     eval_loss: 1.21941
+2024-06-09 21:03:59,680:INFO :     eval_top1: 0.60220
+2024-06-09 21:03:59,680:INFO :     eval_top5: 0.95060
+2024-06-09 21:03:59,680:DEBUG : ==> Start Training Epoch 5/50, lr=0.002000 
+2024-06-09 21:04:43,138:DEBUG : ==> Finished Epoch 5/50.
+2024-06-09 21:04:43,139:DEBUG : ++> Evaluate at epoch 5 ...
+2024-06-09 21:05:00,074:DEBUG : ++> Finished evaluating epoch 5.
+2024-06-09 21:05:00,074:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:05:00,105:INFO : Checkpoint saved.
+2024-06-09 21:05:00,105:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6497999999999999, Current0.6824000000000001
+2024-06-09 21:05:00,105:INFO :     epoch: 5.00000
+2024-06-09 21:05:00,105:INFO :     loss: 0.67282
+2024-06-09 21:05:00,105:INFO :     top1: 0.76816
+2024-06-09 21:05:00,105:INFO :     top5: 0.98456
+2024-06-09 21:05:00,105:INFO :     eval_loss: 0.98085
+2024-06-09 21:05:00,105:INFO :     eval_top1: 0.68240
+2024-06-09 21:05:00,105:INFO :     eval_top5: 0.95720
+2024-06-09 21:05:00,105:DEBUG : ==> Start Training Epoch 6/50, lr=0.001600 
+2024-06-09 21:05:43,932:DEBUG : ==> Finished Epoch 6/50.
+2024-06-09 21:05:43,932:DEBUG : ++> Evaluate at epoch 6 ...
+2024-06-09 21:06:00,688:DEBUG : ++> Finished evaluating epoch 6.
+2024-06-09 21:06:00,688:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:06:00,720:INFO : Checkpoint saved.
+2024-06-09 21:06:00,720:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6824000000000001, Current0.7709999999999998
+2024-06-09 21:06:00,720:INFO :     epoch: 6.00000
+2024-06-09 21:06:00,720:INFO :     loss: 0.55549
+2024-06-09 21:06:00,720:INFO :     top1: 0.80982
+2024-06-09 21:06:00,720:INFO :     top5: 0.98944
+2024-06-09 21:06:00,720:INFO :     eval_loss: 0.64584
+2024-06-09 21:06:00,720:INFO :     eval_top1: 0.77100
+2024-06-09 21:06:00,720:INFO :     eval_top5: 0.98740
+2024-06-09 21:06:00,720:DEBUG : ==> Start Training Epoch 7/50, lr=0.001600 
+2024-06-09 21:06:44,519:DEBUG : ==> Finished Epoch 7/50.
+2024-06-09 21:06:44,519:DEBUG : ++> Evaluate at epoch 7 ...
+2024-06-09 21:07:01,705:DEBUG : ++> Finished evaluating epoch 7.
+2024-06-09 21:07:01,705:INFO :     epoch: 7.00000
+2024-06-09 21:07:01,705:INFO :     loss: 0.48351
+2024-06-09 21:07:01,705:INFO :     top1: 0.83364
+2024-06-09 21:07:01,705:INFO :     top5: 0.99171
+2024-06-09 21:07:01,705:INFO :     eval_loss: 0.71480
+2024-06-09 21:07:01,705:INFO :     eval_top1: 0.75760
+2024-06-09 21:07:01,705:INFO :     eval_top5: 0.98620
+2024-06-09 21:07:01,705:DEBUG : ==> Start Training Epoch 8/50, lr=0.001600 
+2024-06-09 21:07:45,732:DEBUG : ==> Finished Epoch 8/50.
+2024-06-09 21:07:45,732:DEBUG : ++> Evaluate at epoch 8 ...
+2024-06-09 21:08:02,866:DEBUG : ++> Finished evaluating epoch 8.
+2024-06-09 21:08:02,866:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:08:02,897:INFO : Checkpoint saved.
+2024-06-09 21:08:02,897:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.7709999999999998, Current0.7778
+2024-06-09 21:08:02,897:INFO :     epoch: 8.00000
+2024-06-09 21:08:02,897:INFO :     loss: 0.44061
+2024-06-09 21:08:02,897:INFO :     top1: 0.84773
+2024-06-09 21:08:02,897:INFO :     top5: 0.99307
+2024-06-09 21:08:02,897:INFO :     eval_loss: 0.67884
+2024-06-09 21:08:02,897:INFO :     eval_top1: 0.77780
+2024-06-09 21:08:02,897:INFO :     eval_top5: 0.98680
+2024-06-09 21:08:02,897:DEBUG : ==> Start Training Epoch 9/50, lr=0.001600 
+2024-06-09 21:08:46,687:DEBUG : ==> Finished Epoch 9/50.
+2024-06-09 21:08:46,687:DEBUG : ++> Evaluate at epoch 9 ...
+2024-06-09 21:09:03,428:DEBUG : ++> Finished evaluating epoch 9.
+2024-06-09 21:09:03,428:INFO :     epoch: 9.00000
+2024-06-09 21:09:03,428:INFO :     loss: 0.38951
+2024-06-09 21:09:03,428:INFO :     top1: 0.86713
+2024-06-09 21:09:03,428:INFO :     top5: 0.99531
+2024-06-09 21:09:03,428:INFO :     eval_loss: 0.69958
+2024-06-09 21:09:03,428:INFO :     eval_top1: 0.77340
+2024-06-09 21:09:03,428:INFO :     eval_top5: 0.98400
+2024-06-09 21:09:03,428:DEBUG : ==> Start Training Epoch 10/50, lr=0.001600 
+2024-06-09 21:09:47,087:DEBUG : ==> Finished Epoch 10/50.
+2024-06-09 21:09:47,087:DEBUG : ++> Evaluate at epoch 10 ...
+2024-06-09 21:10:04,029:DEBUG : ++> Finished evaluating epoch 10.
+2024-06-09 21:10:04,029:INFO :     epoch: 10.00000
+2024-06-09 21:10:04,029:INFO :     loss: 0.34957
+2024-06-09 21:10:04,029:INFO :     top1: 0.88058
+2024-06-09 21:10:04,029:INFO :     top5: 0.99562
+2024-06-09 21:10:04,029:INFO :     eval_loss: 0.75144
+2024-06-09 21:10:04,029:INFO :     eval_top1: 0.77340
+2024-06-09 21:10:04,029:INFO :     eval_top5: 0.98160
+2024-06-09 21:10:04,029:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\E10_model.pth ...
+2024-06-09 21:10:04,060:INFO : Checkpoint saved.
+2024-06-09 21:10:04,060:DEBUG : ==> Start Training Epoch 11/50, lr=0.001280 
+2024-06-09 21:10:47,638:DEBUG : ==> Finished Epoch 11/50.
+2024-06-09 21:10:47,638:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-09 21:11:04,591:DEBUG : ++> Finished evaluating epoch 11.
+2024-06-09 21:11:04,591:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:11:04,631:INFO : Checkpoint saved.
+2024-06-09 21:11:04,631:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.7778, Current0.7987999999999998
+2024-06-09 21:11:04,631:INFO :     epoch: 11.00000
+2024-06-09 21:11:04,631:INFO :     loss: 0.27165
+2024-06-09 21:11:04,631:INFO :     top1: 0.90689
+2024-06-09 21:11:04,631:INFO :     top5: 0.99744
+2024-06-09 21:11:04,631:INFO :     eval_loss: 0.65780
+2024-06-09 21:11:04,631:INFO :     eval_top1: 0.79880
+2024-06-09 21:11:04,631:INFO :     eval_top5: 0.98580
+2024-06-09 21:11:04,631:DEBUG : ==> Start Training Epoch 12/50, lr=0.001280 
+2024-06-09 21:11:48,207:DEBUG : ==> Finished Epoch 12/50.
+2024-06-09 21:11:48,208:DEBUG : ++> Evaluate at epoch 12 ...
+2024-06-09 21:12:04,968:DEBUG : ++> Finished evaluating epoch 12.
+2024-06-09 21:12:04,968:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:12:05,004:INFO : Checkpoint saved.
+2024-06-09 21:12:05,004:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.7987999999999998, Current0.8
+2024-06-09 21:12:05,004:INFO :     epoch: 12.00000
+2024-06-09 21:12:05,004:INFO :     loss: 0.23807
+2024-06-09 21:12:05,004:INFO :     top1: 0.91836
+2024-06-09 21:12:05,004:INFO :     top5: 0.99829
+2024-06-09 21:12:05,004:INFO :     eval_loss: 0.63616
+2024-06-09 21:12:05,004:INFO :     eval_top1: 0.80000
+2024-06-09 21:12:05,004:INFO :     eval_top5: 0.98620
+2024-06-09 21:12:05,004:DEBUG : ==> Start Training Epoch 13/50, lr=0.001280 
+2024-06-09 21:12:48,383:DEBUG : ==> Finished Epoch 13/50.
+2024-06-09 21:12:48,383:DEBUG : ++> Evaluate at epoch 13 ...
+2024-06-09 21:13:05,329:DEBUG : ++> Finished evaluating epoch 13.
+2024-06-09 21:13:05,329:INFO :     epoch: 13.00000
+2024-06-09 21:13:05,329:INFO :     loss: 0.21719
+2024-06-09 21:13:05,329:INFO :     top1: 0.92444
+2024-06-09 21:13:05,329:INFO :     top5: 0.99847
+2024-06-09 21:13:05,329:INFO :     eval_loss: 0.68119
+2024-06-09 21:13:05,329:INFO :     eval_top1: 0.79040
+2024-06-09 21:13:05,329:INFO :     eval_top5: 0.98780
+2024-06-09 21:13:05,344:DEBUG : ==> Start Training Epoch 14/50, lr=0.001280 
+2024-06-09 21:13:48,948:DEBUG : ==> Finished Epoch 14/50.
+2024-06-09 21:13:48,948:DEBUG : ++> Evaluate at epoch 14 ...
+2024-06-09 21:14:05,696:DEBUG : ++> Finished evaluating epoch 14.
+2024-06-09 21:14:05,696:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:14:05,728:INFO : Checkpoint saved.
+2024-06-09 21:14:05,728:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8, Current0.8052000000000001
+2024-06-09 21:14:05,744:INFO :     epoch: 14.00000
+2024-06-09 21:14:05,744:INFO :     loss: 0.19650
+2024-06-09 21:14:05,744:INFO :     top1: 0.93307
+2024-06-09 21:14:05,744:INFO :     top5: 0.99887
+2024-06-09 21:14:05,744:INFO :     eval_loss: 0.67675
+2024-06-09 21:14:05,744:INFO :     eval_top1: 0.80520
+2024-06-09 21:14:05,744:INFO :     eval_top5: 0.98800
+2024-06-09 21:14:05,744:DEBUG : ==> Start Training Epoch 15/50, lr=0.001280 
+2024-06-09 21:14:49,732:DEBUG : ==> Finished Epoch 15/50.
+2024-06-09 21:14:49,732:DEBUG : ++> Evaluate at epoch 15 ...
+2024-06-09 21:15:06,898:DEBUG : ++> Finished evaluating epoch 15.
+2024-06-09 21:15:06,899:INFO :     epoch: 15.00000
+2024-06-09 21:15:06,899:INFO :     loss: 0.18239
+2024-06-09 21:15:06,899:INFO :     top1: 0.93696
+2024-06-09 21:15:06,899:INFO :     top5: 0.99929
+2024-06-09 21:15:06,899:INFO :     eval_loss: 0.67806
+2024-06-09 21:15:06,899:INFO :     eval_top1: 0.80420
+2024-06-09 21:15:06,899:INFO :     eval_top5: 0.98560
+2024-06-09 21:15:06,899:DEBUG : ==> Start Training Epoch 16/50, lr=0.001024 
+2024-06-09 21:15:50,940:DEBUG : ==> Finished Epoch 16/50.
+2024-06-09 21:15:50,940:DEBUG : ++> Evaluate at epoch 16 ...
+2024-06-09 21:16:08,081:DEBUG : ++> Finished evaluating epoch 16.
+2024-06-09 21:16:08,081:INFO :     epoch: 16.00000
+2024-06-09 21:16:08,081:INFO :     loss: 0.11534
+2024-06-09 21:16:08,081:INFO :     top1: 0.96044
+2024-06-09 21:16:08,081:INFO :     top5: 0.99971
+2024-06-09 21:16:08,081:INFO :     eval_loss: 0.80386
+2024-06-09 21:16:08,081:INFO :     eval_top1: 0.80280
+2024-06-09 21:16:08,081:INFO :     eval_top5: 0.98320
+2024-06-09 21:16:08,081:DEBUG : ==> Start Training Epoch 17/50, lr=0.001024 
+2024-06-09 21:16:51,670:DEBUG : ==> Finished Epoch 17/50.
+2024-06-09 21:16:51,670:DEBUG : ++> Evaluate at epoch 17 ...
+2024-06-09 21:17:08,641:DEBUG : ++> Finished evaluating epoch 17.
+2024-06-09 21:17:08,641:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:17:08,673:INFO : Checkpoint saved.
+2024-06-09 21:17:08,673:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8052000000000001, Current0.8058000000000001
+2024-06-09 21:17:08,673:INFO :     epoch: 17.00000
+2024-06-09 21:17:08,673:INFO :     loss: 0.09726
+2024-06-09 21:17:08,673:INFO :     top1: 0.96742
+2024-06-09 21:17:08,673:INFO :     top5: 0.99978
+2024-06-09 21:17:08,673:INFO :     eval_loss: 0.75230
+2024-06-09 21:17:08,673:INFO :     eval_top1: 0.80580
+2024-06-09 21:17:08,673:INFO :     eval_top5: 0.98540
+2024-06-09 21:17:08,673:DEBUG : ==> Start Training Epoch 18/50, lr=0.001024 
+2024-06-09 21:17:52,222:DEBUG : ==> Finished Epoch 18/50.
+2024-06-09 21:17:52,238:DEBUG : ++> Evaluate at epoch 18 ...
+2024-06-09 21:18:09,189:DEBUG : ++> Finished evaluating epoch 18.
+2024-06-09 21:18:09,189:INFO :     epoch: 18.00000
+2024-06-09 21:18:09,189:INFO :     loss: 0.09968
+2024-06-09 21:18:09,189:INFO :     top1: 0.96636
+2024-06-09 21:18:09,189:INFO :     top5: 0.99980
+2024-06-09 21:18:09,189:INFO :     eval_loss: 0.77011
+2024-06-09 21:18:09,189:INFO :     eval_top1: 0.80500
+2024-06-09 21:18:09,189:INFO :     eval_top5: 0.98800
+2024-06-09 21:18:09,189:DEBUG : ==> Start Training Epoch 19/50, lr=0.001024 
+2024-06-09 21:18:52,644:DEBUG : ==> Finished Epoch 19/50.
+2024-06-09 21:18:52,644:DEBUG : ++> Evaluate at epoch 19 ...
+2024-06-09 21:19:09,974:DEBUG : ++> Finished evaluating epoch 19.
+2024-06-09 21:19:09,974:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:19:10,007:INFO : Checkpoint saved.
+2024-06-09 21:19:10,007:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8058000000000001, Current0.8104000000000002
+2024-06-09 21:19:10,007:INFO :     epoch: 19.00000
+2024-06-09 21:19:10,007:INFO :     loss: 0.11955
+2024-06-09 21:19:10,007:INFO :     top1: 0.95833
+2024-06-09 21:19:10,007:INFO :     top5: 0.99969
+2024-06-09 21:19:10,007:INFO :     eval_loss: 0.75782
+2024-06-09 21:19:10,007:INFO :     eval_top1: 0.81040
+2024-06-09 21:19:10,007:INFO :     eval_top5: 0.98500
+2024-06-09 21:19:10,007:DEBUG : ==> Start Training Epoch 20/50, lr=0.001024 
+2024-06-09 21:19:53,802:DEBUG : ==> Finished Epoch 20/50.
+2024-06-09 21:19:53,803:DEBUG : ++> Evaluate at epoch 20 ...
+2024-06-09 21:20:11,134:DEBUG : ++> Finished evaluating epoch 20.
+2024-06-09 21:20:11,134:INFO :     epoch: 20.00000
+2024-06-09 21:20:11,134:INFO :     loss: 0.09947
+2024-06-09 21:20:11,134:INFO :     top1: 0.96560
+2024-06-09 21:20:11,134:INFO :     top5: 0.99987
+2024-06-09 21:20:11,134:INFO :     eval_loss: 0.85122
+2024-06-09 21:20:11,134:INFO :     eval_top1: 0.79260
+2024-06-09 21:20:11,134:INFO :     eval_top5: 0.98000
+2024-06-09 21:20:11,134:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\E20_model.pth ...
+2024-06-09 21:20:11,173:INFO : Checkpoint saved.
+2024-06-09 21:20:11,173:DEBUG : ==> Start Training Epoch 21/50, lr=0.000819 
+2024-06-09 21:20:55,197:DEBUG : ==> Finished Epoch 21/50.
+2024-06-09 21:20:55,197:DEBUG : ++> Evaluate at epoch 21 ...
+2024-06-09 21:21:12,551:DEBUG : ++> Finished evaluating epoch 21.
+2024-06-09 21:21:12,551:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:21:12,595:INFO : Checkpoint saved.
+2024-06-09 21:21:12,596:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8104000000000002, Current0.8184
+2024-06-09 21:21:12,596:INFO :     epoch: 21.00000
+2024-06-09 21:21:12,596:INFO :     loss: 0.06333
+2024-06-09 21:21:12,596:INFO :     top1: 0.97949
+2024-06-09 21:21:12,596:INFO :     top5: 0.99993
+2024-06-09 21:21:12,596:INFO :     eval_loss: 0.77153
+2024-06-09 21:21:12,596:INFO :     eval_top1: 0.81840
+2024-06-09 21:21:12,596:INFO :     eval_top5: 0.98620
+2024-06-09 21:21:12,596:DEBUG : ==> Start Training Epoch 22/50, lr=0.000819 
+2024-06-09 21:21:56,557:DEBUG : ==> Finished Epoch 22/50.
+2024-06-09 21:21:56,557:DEBUG : ++> Evaluate at epoch 22 ...
+2024-06-09 21:22:13,955:DEBUG : ++> Finished evaluating epoch 22.
+2024-06-09 21:22:13,955:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:22:13,988:INFO : Checkpoint saved.
+2024-06-09 21:22:14,003:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8184, Current0.8195999999999998
+2024-06-09 21:22:14,003:INFO :     epoch: 22.00000
+2024-06-09 21:22:14,003:INFO :     loss: 0.03561
+2024-06-09 21:22:14,003:INFO :     top1: 0.98976
+2024-06-09 21:22:14,004:INFO :     top5: 1.00000
+2024-06-09 21:22:14,004:INFO :     eval_loss: 0.75644
+2024-06-09 21:22:14,004:INFO :     eval_top1: 0.81960
+2024-06-09 21:22:14,004:INFO :     eval_top5: 0.98640
+2024-06-09 21:22:14,004:DEBUG : ==> Start Training Epoch 23/50, lr=0.000819 
+2024-06-09 21:22:58,017:DEBUG : ==> Finished Epoch 23/50.
+2024-06-09 21:22:58,017:DEBUG : ++> Evaluate at epoch 23 ...
+2024-06-09 21:23:15,549:DEBUG : ++> Finished evaluating epoch 23.
+2024-06-09 21:23:15,549:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-09 21:23:15,582:INFO : Checkpoint saved.
+2024-06-09 21:23:15,582:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8195999999999998, Current0.8202000000000002
+2024-06-09 21:23:15,582:INFO :     epoch: 23.00000
+2024-06-09 21:23:15,582:INFO :     loss: 0.03093
+2024-06-09 21:23:15,582:INFO :     top1: 0.99147
+2024-06-09 21:23:15,582:INFO :     top5: 1.00000
+2024-06-09 21:23:15,582:INFO :     eval_loss: 0.80855
+2024-06-09 21:23:15,582:INFO :     eval_top1: 0.82020
+2024-06-09 21:23:15,582:INFO :     eval_top5: 0.98380
+2024-06-09 21:23:15,582:DEBUG : ==> Start Training Epoch 24/50, lr=0.000819 
+2024-06-09 21:23:59,761:DEBUG : ==> Finished Epoch 24/50.
+2024-06-09 21:23:59,761:DEBUG : ++> Evaluate at epoch 24 ...
+2024-06-09 21:24:17,326:DEBUG : ++> Finished evaluating epoch 24.
+2024-06-09 21:24:17,326:INFO :     epoch: 24.00000
+2024-06-09 21:24:17,326:INFO :     loss: 0.04061
+2024-06-09 21:24:17,326:INFO :     top1: 0.98762
+2024-06-09 21:24:17,326:INFO :     top5: 0.99993
+2024-06-09 21:24:17,326:INFO :     eval_loss: 0.92487
+2024-06-09 21:24:17,326:INFO :     eval_top1: 0.79560
+2024-06-09 21:24:17,326:INFO :     eval_top5: 0.98600
+2024-06-09 21:24:17,326:DEBUG : ==> Start Training Epoch 25/50, lr=0.000819 
+2024-06-09 21:25:01,504:DEBUG : ==> Finished Epoch 25/50.
+2024-06-09 21:25:01,504:DEBUG : ++> Evaluate at epoch 25 ...
+2024-06-09 21:25:18,227:DEBUG : ++> Finished evaluating epoch 25.
+2024-06-09 21:25:18,227:INFO :     epoch: 25.00000
+2024-06-09 21:25:18,243:INFO :     loss: 0.07571
+2024-06-09 21:25:18,243:INFO :     top1: 0.97571
+2024-06-09 21:25:18,243:INFO :     top5: 0.99989
+2024-06-09 21:25:18,243:INFO :     eval_loss: 0.85861
+2024-06-09 21:25:18,243:INFO :     eval_top1: 0.79720
+2024-06-09 21:25:18,243:INFO :     eval_top5: 0.98560
+2024-06-09 21:25:18,243:DEBUG : ==> Start Training Epoch 26/50, lr=0.000655 
+2024-06-09 21:26:01,876:DEBUG : ==> Finished Epoch 26/50.
+2024-06-09 21:26:01,876:DEBUG : ++> Evaluate at epoch 26 ...
+2024-06-09 21:26:18,869:DEBUG : ++> Finished evaluating epoch 26.
+2024-06-09 21:26:18,869:INFO :     epoch: 26.00000
+2024-06-09 21:26:18,869:INFO :     loss: 0.05302
+2024-06-09 21:26:18,869:INFO :     top1: 0.98351
+2024-06-09 21:26:18,869:INFO :     top5: 0.99998
+2024-06-09 21:26:18,869:INFO :     eval_loss: 0.76934
+2024-06-09 21:26:18,869:INFO :     eval_top1: 0.81680
+2024-06-09 21:26:18,869:INFO :     eval_top5: 0.98840
+2024-06-09 21:26:18,869:DEBUG : ==> Start Training Epoch 27/50, lr=0.000655 
+2024-06-09 21:27:02,408:DEBUG : ==> Finished Epoch 27/50.
+2024-06-09 21:27:02,408:DEBUG : ++> Evaluate at epoch 27 ...
+2024-06-09 21:27:19,173:DEBUG : ++> Finished evaluating epoch 27.
+2024-06-09 21:27:19,173:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\last_model.pth ...
+2024-06-09 21:27:19,207:INFO : Checkpoint saved.
+2024-06-09 21:27:19,323:INFO : Loading checkpoint: ./Saved/CIFAR10_CNN_q2c/best_val_model.pth ...
+2024-06-09 21:27:19,356:INFO : Checkpoint loaded.
+2024-06-09 21:27:19,356:DEBUG : ++> Evaluate at epoch 27 ...
+2024-06-09 21:27:34,785:DEBUG : ++> Finished evaluating epoch 27.
+2024-06-11 16:16:21,867:WARNING : Warning: visualization (Tensorboard) is configured to use, but currently not installed on this machine. Please install TensorboardX with 'pip install tensorboardx', upgrade PyTorch to version >= 1.1 to use 'torch.utils.tensorboard' or turn off the option in the 'config.json' file.
+2024-06-11 16:16:23,992:INFO : Number of trainable parameters in each layer: 
+ 3456
+ 128
+ 128
+ 128
+ 589824
+ 512
+ 512
+ 512
+ 2359296
+ 512
+ 512
+ 512
+ 2359296
+ 512
+ 512
+ 512
+ 2359296
+ 512
+ 512
+ 512
+ 262144
+ 512
+ 5120
+ 10
+ Total number of parameters is 7945482
+2024-06-11 16:16:23,992:INFO : ------------ New Training Session ------------
+2024-06-11 16:16:23,992:DEBUG : ==> Start Training Epoch 1/50, lr=0.002000 
+2024-06-11 16:17:10,016:DEBUG : ==> Finished Epoch 1/50.
+2024-06-11 16:17:10,016:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-11 16:17:27,245:DEBUG : ++> Finished evaluating epoch 1.
+2024-06-11 16:17:27,245:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:17:27,282:INFO : Checkpoint saved.
+2024-06-11 16:17:27,282:INFO : Saved model on eval based on eval_top1 at this step. Previous: -inf, Current: 0.42580000000000007
+2024-06-11 16:17:27,282:INFO :     epoch: 1.00000
+2024-06-11 16:17:27,282:INFO :     loss: 1.47793
+2024-06-11 16:17:27,282:INFO :     top1: 0.44513
+2024-06-11 16:17:27,282:INFO :     top5: 0.90831
+2024-06-11 16:17:27,282:INFO :     eval_loss: 1.66387
+2024-06-11 16:17:27,282:INFO :     eval_top1: 0.42580
+2024-06-11 16:17:27,282:INFO :     eval_top5: 0.88240
+2024-06-11 16:17:27,282:DEBUG : ==> Start Training Epoch 2/50, lr=0.002000 
+2024-06-11 16:18:12,003:DEBUG : ==> Finished Epoch 2/50.
+2024-06-11 16:18:12,004:DEBUG : ++> Evaluate at epoch 2 ...
+2024-06-11 16:18:29,764:DEBUG : ++> Finished evaluating epoch 2.
+2024-06-11 16:18:29,764:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:18:29,809:INFO : Checkpoint saved.
+2024-06-11 16:18:29,809:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.42580000000000007, Current: 0.4887999999999999
+2024-06-11 16:18:29,809:INFO :     epoch: 2.00000
+2024-06-11 16:18:29,809:INFO :     loss: 1.05958
+2024-06-11 16:18:29,809:INFO :     top1: 0.62096
+2024-06-11 16:18:29,809:INFO :     top5: 0.96320
+2024-06-11 16:18:29,809:INFO :     eval_loss: 1.43746
+2024-06-11 16:18:29,809:INFO :     eval_top1: 0.48880
+2024-06-11 16:18:29,809:INFO :     eval_top5: 0.92880
+2024-06-11 16:18:29,811:DEBUG : ==> Start Training Epoch 3/50, lr=0.002000 
+2024-06-11 16:19:14,525:DEBUG : ==> Finished Epoch 3/50.
+2024-06-11 16:19:14,525:DEBUG : ++> Evaluate at epoch 3 ...
+2024-06-11 16:19:31,745:DEBUG : ++> Finished evaluating epoch 3.
+2024-06-11 16:19:31,745:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:19:31,775:INFO : Checkpoint saved.
+2024-06-11 16:19:31,775:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.4887999999999999, Current: 0.6648
+2024-06-11 16:19:31,775:INFO :     epoch: 3.00000
+2024-06-11 16:19:31,775:INFO :     loss: 0.90623
+2024-06-11 16:19:31,775:INFO :     top1: 0.67927
+2024-06-11 16:19:31,775:INFO :     top5: 0.97231
+2024-06-11 16:19:31,775:INFO :     eval_loss: 0.96736
+2024-06-11 16:19:31,775:INFO :     eval_top1: 0.66480
+2024-06-11 16:19:31,775:INFO :     eval_top5: 0.96920
+2024-06-11 16:19:31,775:DEBUG : ==> Start Training Epoch 4/50, lr=0.002000 
+2024-06-11 16:20:16,226:DEBUG : ==> Finished Epoch 4/50.
+2024-06-11 16:20:16,226:DEBUG : ++> Evaluate at epoch 4 ...
+2024-06-11 16:20:33,507:DEBUG : ++> Finished evaluating epoch 4.
+2024-06-11 16:20:33,507:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:20:33,549:INFO : Checkpoint saved.
+2024-06-11 16:20:33,549:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6648, Current: 0.705
+2024-06-11 16:20:33,549:INFO :     epoch: 4.00000
+2024-06-11 16:20:33,549:INFO :     loss: 0.76976
+2024-06-11 16:20:33,549:INFO :     top1: 0.73213
+2024-06-11 16:20:33,549:INFO :     top5: 0.98102
+2024-06-11 16:20:33,549:INFO :     eval_loss: 0.84846
+2024-06-11 16:20:33,549:INFO :     eval_top1: 0.70500
+2024-06-11 16:20:33,549:INFO :     eval_top5: 0.97600
+2024-06-11 16:20:33,549:DEBUG : ==> Start Training Epoch 5/50, lr=0.002000 
+2024-06-11 16:21:17,998:DEBUG : ==> Finished Epoch 5/50.
+2024-06-11 16:21:17,998:DEBUG : ++> Evaluate at epoch 5 ...
+2024-06-11 16:21:35,379:DEBUG : ++> Finished evaluating epoch 5.
+2024-06-11 16:21:35,379:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:21:35,408:INFO : Checkpoint saved.
+2024-06-11 16:21:35,408:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.705, Current: 0.7690000000000002
+2024-06-11 16:21:35,408:INFO :     epoch: 5.00000
+2024-06-11 16:21:35,408:INFO :     loss: 0.66935
+2024-06-11 16:21:35,408:INFO :     top1: 0.76900
+2024-06-11 16:21:35,408:INFO :     top5: 0.98456
+2024-06-11 16:21:35,408:INFO :     eval_loss: 0.68032
+2024-06-11 16:21:35,408:INFO :     eval_top1: 0.76900
+2024-06-11 16:21:35,408:INFO :     eval_top5: 0.98200
+2024-06-11 16:21:35,408:DEBUG : ==> Start Training Epoch 6/50, lr=0.001600 
+2024-06-11 16:22:19,590:DEBUG : ==> Finished Epoch 6/50.
+2024-06-11 16:22:19,590:DEBUG : ++> Evaluate at epoch 6 ...
+2024-06-11 16:22:36,993:DEBUG : ++> Finished evaluating epoch 6.
+2024-06-11 16:22:36,993:INFO :     epoch: 6.00000
+2024-06-11 16:22:36,994:INFO :     loss: 0.55203
+2024-06-11 16:22:36,994:INFO :     top1: 0.81216
+2024-06-11 16:22:36,994:INFO :     top5: 0.98916
+2024-06-11 16:22:36,994:INFO :     eval_loss: 0.76847
+2024-06-11 16:22:36,994:INFO :     eval_top1: 0.73960
+2024-06-11 16:22:36,994:INFO :     eval_top5: 0.97900
+2024-06-11 16:22:36,994:DEBUG : ==> Start Training Epoch 7/50, lr=0.001600 
+2024-06-11 16:23:21,166:DEBUG : ==> Finished Epoch 7/50.
+2024-06-11 16:23:21,167:DEBUG : ++> Evaluate at epoch 7 ...
+2024-06-11 16:23:38,989:DEBUG : ++> Finished evaluating epoch 7.
+2024-06-11 16:23:38,989:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:23:39,031:INFO : Checkpoint saved.
+2024-06-11 16:23:39,031:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.7690000000000002, Current: 0.7946
+2024-06-11 16:23:39,032:INFO :     epoch: 7.00000
+2024-06-11 16:23:39,032:INFO :     loss: 0.48728
+2024-06-11 16:23:39,032:INFO :     top1: 0.83278
+2024-06-11 16:23:39,032:INFO :     top5: 0.99238
+2024-06-11 16:23:39,032:INFO :     eval_loss: 0.60643
+2024-06-11 16:23:39,032:INFO :     eval_top1: 0.79460
+2024-06-11 16:23:39,032:INFO :     eval_top5: 0.98720
+2024-06-11 16:23:39,032:DEBUG : ==> Start Training Epoch 8/50, lr=0.001600 
+2024-06-11 16:24:23,527:DEBUG : ==> Finished Epoch 8/50.
+2024-06-11 16:24:23,527:DEBUG : ++> Evaluate at epoch 8 ...
+2024-06-11 16:24:41,373:DEBUG : ++> Finished evaluating epoch 8.
+2024-06-11 16:24:41,373:INFO :     epoch: 8.00000
+2024-06-11 16:24:41,373:INFO :     loss: 0.43356
+2024-06-11 16:24:41,373:INFO :     top1: 0.85138
+2024-06-11 16:24:41,373:INFO :     top5: 0.99400
+2024-06-11 16:24:41,373:INFO :     eval_loss: 0.62802
+2024-06-11 16:24:41,373:INFO :     eval_top1: 0.79420
+2024-06-11 16:24:41,373:INFO :     eval_top5: 0.98400
+2024-06-11 16:24:41,373:DEBUG : ==> Start Training Epoch 9/50, lr=0.001600 
+2024-06-11 16:25:26,205:DEBUG : ==> Finished Epoch 9/50.
+2024-06-11 16:25:26,205:DEBUG : ++> Evaluate at epoch 9 ...
+2024-06-11 16:25:44,379:DEBUG : ++> Finished evaluating epoch 9.
+2024-06-11 16:25:44,379:INFO :     epoch: 9.00000
+2024-06-11 16:25:44,379:INFO :     loss: 0.39587
+2024-06-11 16:25:44,379:INFO :     top1: 0.86260
+2024-06-11 16:25:44,379:INFO :     top5: 0.99473
+2024-06-11 16:25:44,379:INFO :     eval_loss: 0.68796
+2024-06-11 16:25:44,379:INFO :     eval_top1: 0.77500
+2024-06-11 16:25:44,379:INFO :     eval_top5: 0.98460
+2024-06-11 16:25:44,379:DEBUG : ==> Start Training Epoch 10/50, lr=0.001600 
+2024-06-11 16:26:28,737:DEBUG : ==> Finished Epoch 10/50.
+2024-06-11 16:26:28,737:DEBUG : ++> Evaluate at epoch 10 ...
+2024-06-11 16:26:45,897:DEBUG : ++> Finished evaluating epoch 10.
+2024-06-11 16:26:45,897:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:26:45,937:INFO : Checkpoint saved.
+2024-06-11 16:26:45,937:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.7946, Current: 0.799
+2024-06-11 16:26:45,937:INFO :     epoch: 10.00000
+2024-06-11 16:26:45,937:INFO :     loss: 0.34985
+2024-06-11 16:26:45,937:INFO :     top1: 0.87976
+2024-06-11 16:26:45,937:INFO :     top5: 0.99540
+2024-06-11 16:26:45,937:INFO :     eval_loss: 0.62808
+2024-06-11 16:26:45,937:INFO :     eval_top1: 0.79900
+2024-06-11 16:26:45,937:INFO :     eval_top5: 0.98700
+2024-06-11 16:26:45,937:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\E10_model.pth ...
+2024-06-11 16:26:45,967:INFO : Checkpoint saved.
+2024-06-11 16:26:45,967:DEBUG : ==> Start Training Epoch 11/50, lr=0.001280 
+2024-06-11 16:27:29,666:DEBUG : ==> Finished Epoch 11/50.
+2024-06-11 16:27:29,666:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-11 16:27:46,891:DEBUG : ++> Finished evaluating epoch 11.
+2024-06-11 16:27:46,891:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:27:46,925:INFO : Checkpoint saved.
+2024-06-11 16:27:46,926:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.799, Current: 0.8046000000000001
+2024-06-11 16:27:46,926:INFO :     epoch: 11.00000
+2024-06-11 16:27:46,926:INFO :     loss: 0.26772
+2024-06-11 16:27:46,926:INFO :     top1: 0.90940
+2024-06-11 16:27:46,926:INFO :     top5: 0.99738
+2024-06-11 16:27:46,926:INFO :     eval_loss: 0.67323
+2024-06-11 16:27:46,926:INFO :     eval_top1: 0.80460
+2024-06-11 16:27:46,926:INFO :     eval_top5: 0.98680
+2024-06-11 16:27:46,926:DEBUG : ==> Start Training Epoch 12/50, lr=0.001280 
+2024-06-11 16:28:31,857:DEBUG : ==> Finished Epoch 12/50.
+2024-06-11 16:28:31,857:DEBUG : ++> Evaluate at epoch 12 ...
+2024-06-11 16:28:48,424:DEBUG : ++> Finished evaluating epoch 12.
+2024-06-11 16:28:48,424:INFO :     epoch: 12.00000
+2024-06-11 16:28:48,424:INFO :     loss: 0.23396
+2024-06-11 16:28:48,424:INFO :     top1: 0.91973
+2024-06-11 16:28:48,424:INFO :     top5: 0.99833
+2024-06-11 16:28:48,424:INFO :     eval_loss: 0.65776
+2024-06-11 16:28:48,424:INFO :     eval_top1: 0.79960
+2024-06-11 16:28:48,424:INFO :     eval_top5: 0.98760
+2024-06-11 16:28:48,424:DEBUG : ==> Start Training Epoch 13/50, lr=0.001280 
+2024-06-11 16:29:31,905:DEBUG : ==> Finished Epoch 13/50.
+2024-06-11 16:29:31,906:DEBUG : ++> Evaluate at epoch 13 ...
+2024-06-11 16:29:48,656:DEBUG : ++> Finished evaluating epoch 13.
+2024-06-11 16:29:48,656:INFO :     epoch: 13.00000
+2024-06-11 16:29:48,656:INFO :     loss: 0.22262
+2024-06-11 16:29:48,656:INFO :     top1: 0.92191
+2024-06-11 16:29:48,656:INFO :     top5: 0.99864
+2024-06-11 16:29:48,656:INFO :     eval_loss: 0.71886
+2024-06-11 16:29:48,656:INFO :     eval_top1: 0.79100
+2024-06-11 16:29:48,656:INFO :     eval_top5: 0.98260
+2024-06-11 16:29:48,656:DEBUG : ==> Start Training Epoch 14/50, lr=0.001280 
+2024-06-11 16:30:32,070:DEBUG : ==> Finished Epoch 14/50.
+2024-06-11 16:30:32,070:DEBUG : ++> Evaluate at epoch 14 ...
+2024-06-11 16:30:48,819:DEBUG : ++> Finished evaluating epoch 14.
+2024-06-11 16:30:48,819:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:30:48,850:INFO : Checkpoint saved.
+2024-06-11 16:30:48,850:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8046000000000001, Current: 0.812
+2024-06-11 16:30:48,850:INFO :     epoch: 14.00000
+2024-06-11 16:30:48,850:INFO :     loss: 0.19542
+2024-06-11 16:30:48,850:INFO :     top1: 0.93209
+2024-06-11 16:30:48,850:INFO :     top5: 0.99891
+2024-06-11 16:30:48,850:INFO :     eval_loss: 0.62835
+2024-06-11 16:30:48,850:INFO :     eval_top1: 0.81200
+2024-06-11 16:30:48,850:INFO :     eval_top5: 0.98680
+2024-06-11 16:30:48,850:DEBUG : ==> Start Training Epoch 15/50, lr=0.001280 
+2024-06-11 16:31:32,803:DEBUG : ==> Finished Epoch 15/50.
+2024-06-11 16:31:32,803:DEBUG : ++> Evaluate at epoch 15 ...
+2024-06-11 16:31:50,719:DEBUG : ++> Finished evaluating epoch 15.
+2024-06-11 16:31:50,719:INFO :     epoch: 15.00000
+2024-06-11 16:31:50,719:INFO :     loss: 0.18326
+2024-06-11 16:31:50,719:INFO :     top1: 0.93580
+2024-06-11 16:31:50,719:INFO :     top5: 0.99922
+2024-06-11 16:31:50,719:INFO :     eval_loss: 0.75168
+2024-06-11 16:31:50,719:INFO :     eval_top1: 0.79540
+2024-06-11 16:31:50,719:INFO :     eval_top5: 0.98620
+2024-06-11 16:31:50,719:DEBUG : ==> Start Training Epoch 16/50, lr=0.001024 
+2024-06-11 16:32:34,673:DEBUG : ==> Finished Epoch 16/50.
+2024-06-11 16:32:34,673:DEBUG : ++> Evaluate at epoch 16 ...
+2024-06-11 16:32:51,823:DEBUG : ++> Finished evaluating epoch 16.
+2024-06-11 16:32:51,823:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:32:51,860:INFO : Checkpoint saved.
+2024-06-11 16:32:51,860:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.812, Current: 0.8142000000000001
+2024-06-11 16:32:51,860:INFO :     epoch: 16.00000
+2024-06-11 16:32:51,860:INFO :     loss: 0.11612
+2024-06-11 16:32:51,860:INFO :     top1: 0.96033
+2024-06-11 16:32:51,860:INFO :     top5: 0.99971
+2024-06-11 16:32:51,860:INFO :     eval_loss: 0.68622
+2024-06-11 16:32:51,860:INFO :     eval_top1: 0.81420
+2024-06-11 16:32:51,860:INFO :     eval_top5: 0.98720
+2024-06-11 16:32:51,860:DEBUG : ==> Start Training Epoch 17/50, lr=0.001024 
+2024-06-11 16:33:36,077:DEBUG : ==> Finished Epoch 17/50.
+2024-06-11 16:33:36,077:DEBUG : ++> Evaluate at epoch 17 ...
+2024-06-11 16:33:53,607:DEBUG : ++> Finished evaluating epoch 17.
+2024-06-11 16:33:53,607:INFO :     epoch: 17.00000
+2024-06-11 16:33:53,607:INFO :     loss: 0.09442
+2024-06-11 16:33:53,607:INFO :     top1: 0.96824
+2024-06-11 16:33:53,607:INFO :     top5: 0.99976
+2024-06-11 16:33:53,607:INFO :     eval_loss: 0.73095
+2024-06-11 16:33:53,607:INFO :     eval_top1: 0.81380
+2024-06-11 16:33:53,607:INFO :     eval_top5: 0.98820
+2024-06-11 16:33:53,607:DEBUG : ==> Start Training Epoch 18/50, lr=0.001024 
+2024-06-11 16:34:37,813:DEBUG : ==> Finished Epoch 18/50.
+2024-06-11 16:34:37,813:DEBUG : ++> Evaluate at epoch 18 ...
+2024-06-11 16:34:55,177:DEBUG : ++> Finished evaluating epoch 18.
+2024-06-11 16:34:55,177:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\best_val_model.pth ...
+2024-06-11 16:34:55,219:INFO : Checkpoint saved.
+2024-06-11 16:34:55,219:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8142000000000001, Current: 0.815
+2024-06-11 16:34:55,219:INFO :     epoch: 18.00000
+2024-06-11 16:34:55,219:INFO :     loss: 0.10744
+2024-06-11 16:34:55,219:INFO :     top1: 0.96404
+2024-06-11 16:34:55,219:INFO :     top5: 0.99973
+2024-06-11 16:34:55,219:INFO :     eval_loss: 0.74725
+2024-06-11 16:34:55,219:INFO :     eval_top1: 0.81500
+2024-06-11 16:34:55,219:INFO :     eval_top5: 0.98640
+2024-06-11 16:34:55,219:DEBUG : ==> Start Training Epoch 19/50, lr=0.001024 
+2024-06-11 16:35:39,572:DEBUG : ==> Finished Epoch 19/50.
+2024-06-11 16:35:39,573:DEBUG : ++> Evaluate at epoch 19 ...
+2024-06-11 16:35:56,905:DEBUG : ++> Finished evaluating epoch 19.
+2024-06-11 16:35:56,905:INFO :     epoch: 19.00000
+2024-06-11 16:35:56,905:INFO :     loss: 0.11311
+2024-06-11 16:35:56,905:INFO :     top1: 0.96120
+2024-06-11 16:35:56,905:INFO :     top5: 0.99978
+2024-06-11 16:35:56,905:INFO :     eval_loss: 0.74001
+2024-06-11 16:35:56,905:INFO :     eval_top1: 0.80580
+2024-06-11 16:35:56,905:INFO :     eval_top5: 0.98720
+2024-06-11 16:35:56,905:DEBUG : ==> Start Training Epoch 20/50, lr=0.001024 
+2024-06-11 16:36:41,131:DEBUG : ==> Finished Epoch 20/50.
+2024-06-11 16:36:41,131:DEBUG : ++> Evaluate at epoch 20 ...
+2024-06-11 16:36:58,557:DEBUG : ++> Finished evaluating epoch 20.
+2024-06-11 16:36:58,557:INFO :     epoch: 20.00000
+2024-06-11 16:36:58,557:INFO :     loss: 0.09414
+2024-06-11 16:36:58,557:INFO :     top1: 0.96813
+2024-06-11 16:36:58,557:INFO :     top5: 0.99982
+2024-06-11 16:36:58,557:INFO :     eval_loss: 0.80472
+2024-06-11 16:36:58,557:INFO :     eval_top1: 0.79720
+2024-06-11 16:36:58,557:INFO :     eval_top5: 0.98660
+2024-06-11 16:36:58,557:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\E20_model.pth ...
+2024-06-11 16:36:58,587:INFO : Checkpoint saved.
+2024-06-11 16:36:58,587:DEBUG : ==> Start Training Epoch 21/50, lr=0.000819 
+2024-06-11 16:37:43,112:DEBUG : ==> Finished Epoch 21/50.
+2024-06-11 16:37:43,113:DEBUG : ++> Evaluate at epoch 21 ...
+2024-06-11 16:38:00,284:DEBUG : ++> Finished evaluating epoch 21.
+2024-06-11 16:38:00,284:INFO :     epoch: 21.00000
+2024-06-11 16:38:00,284:INFO :     loss: 0.06080
+2024-06-11 16:38:00,284:INFO :     top1: 0.98096
+2024-06-11 16:38:00,284:INFO :     top5: 0.99991
+2024-06-11 16:38:00,284:INFO :     eval_loss: 0.76570
+2024-06-11 16:38:00,284:INFO :     eval_top1: 0.80860
+2024-06-11 16:38:00,284:INFO :     eval_top5: 0.98760
+2024-06-11 16:38:00,284:DEBUG : ==> Start Training Epoch 22/50, lr=0.000819 
+2024-06-11 16:38:44,302:DEBUG : ==> Finished Epoch 22/50.
+2024-06-11 16:38:44,302:DEBUG : ++> Evaluate at epoch 22 ...
+2024-06-11 16:39:01,446:DEBUG : ++> Finished evaluating epoch 22.
+2024-06-11 16:39:01,449:INFO : Saving checkpoint: Saved\CIFAR10_CNN_q2c\last_model.pth ...
+2024-06-11 16:39:01,470:INFO : Checkpoint saved.
+2024-06-11 16:39:01,470:INFO : Loading checkpoint: ./Saved/CIFAR10_CNN_q2c/best_val_model.pth ...
+2024-06-11 16:39:01,505:INFO : Checkpoint loaded.
+2024-06-11 16:39:01,505:DEBUG : ++> Evaluate at epoch 22 ...
+2024-06-11 16:39:16,991:DEBUG : ++> Finished evaluating epoch 22.

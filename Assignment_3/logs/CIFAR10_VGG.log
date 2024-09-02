@@ -1,0 +1,1092 @@
+2024-06-10 15:05:32,182:INFO : ------------ New Training Session ------------
+2024-06-10 15:05:32,182:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 15:27:24,144:INFO : ------------ New Training Session ------------
+2024-06-10 15:27:24,145:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 15:32:00,632:INFO : ------------ New Training Session ------------
+2024-06-10 15:32:00,632:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 15:41:18,857:INFO : ------------ New Training Session ------------
+2024-06-10 15:41:18,858:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 16:04:13,963:INFO : ------------ New Training Session ------------
+2024-06-10 16:04:13,964:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 16:09:25,325:INFO : ------------ New Training Session ------------
+2024-06-10 16:09:25,325:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 16:17:21,635:INFO : ------------ New Training Session ------------
+2024-06-10 16:17:21,635:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 16:42:13,622:INFO : ------------ New Training Session ------------
+2024-06-10 16:42:13,623:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 16:49:46,384:INFO : ------------ New Training Session ------------
+2024-06-10 16:49:46,384:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 17:07:45,451:INFO : ------------ New Training Session ------------
+2024-06-10 17:07:45,452:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 17:14:04,146:INFO : ------------ New Training Session ------------
+2024-06-10 17:14:04,146:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 17:38:39,273:INFO : ------------ New Training Session ------------
+2024-06-10 17:38:39,273:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 17:45:24,843:INFO : ------------ New Training Session ------------
+2024-06-10 17:45:24,843:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 17:50:52,653:INFO : ------------ New Training Session ------------
+2024-06-10 17:50:52,653:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 18:08:02,060:INFO : ------------ New Training Session ------------
+2024-06-10 18:08:02,061:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 18:09:31,188:INFO : ------------ New Training Session ------------
+2024-06-10 18:09:31,189:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 18:20:31,166:INFO : ------------ New Training Session ------------
+2024-06-10 18:20:31,167:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 18:22:35,665:DEBUG : ==> Finished Epoch 1/15.
+2024-06-10 18:22:35,666:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-10 18:23:07,104:DEBUG : ++> Evaluate epoch 1 Finished.
+2024-06-10 18:23:07,104:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 18:23:07,164:INFO : Checkpoint saved.
+2024-06-10 18:23:07,165:INFO : Saved model on eval based on eval_top1 at this step. Previous: -inf, Current: 0.629746835443038
+2024-06-10 18:23:07,165:INFO :     epoch: 1.00000
+2024-06-10 18:23:07,165:INFO :     loss: 1.21009
+2024-06-10 18:23:07,165:INFO :     top1: 0.57682
+2024-06-10 18:23:07,166:INFO :     top5: 0.94567
+2024-06-10 18:23:07,166:INFO :     eval_loss: 1.06571
+2024-06-10 18:23:07,166:INFO :     eval_top1: 0.62975
+2024-06-10 18:23:07,166:INFO :     eval_top5: 0.95945
+2024-06-10 18:23:07,166:DEBUG : ==> Start Training Epoch 2/15, lr=0.000990 
+2024-06-10 18:25:11,400:DEBUG : ==> Finished Epoch 2/15.
+2024-06-10 18:25:11,401:DEBUG : ++> Evaluate at epoch 2 ...
+2024-06-10 18:25:43,098:DEBUG : ++> Evaluate epoch 2 Finished.
+2024-06-10 18:25:43,099:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 18:25:43,144:INFO : Checkpoint saved.
+2024-06-10 18:25:43,145:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.629746835443038, Current: 0.6426028481012658
+2024-06-10 18:25:43,145:INFO :     epoch: 2.00000
+2024-06-10 18:25:43,145:INFO :     loss: 1.04829
+2024-06-10 18:25:43,145:INFO :     top1: 0.62886
+2024-06-10 18:25:43,145:INFO :     top5: 0.96278
+2024-06-10 18:25:43,145:INFO :     eval_loss: 1.03265
+2024-06-10 18:25:43,145:INFO :     eval_top1: 0.64260
+2024-06-10 18:25:43,146:INFO :     eval_top5: 0.96064
+2024-06-10 18:25:43,146:DEBUG : ==> Start Training Epoch 3/15, lr=0.000980 
+2024-06-10 18:27:48,717:DEBUG : ==> Finished Epoch 3/15.
+2024-06-10 18:27:48,718:DEBUG : ++> Evaluate at epoch 3 ...
+2024-06-10 18:28:22,084:DEBUG : ++> Evaluate epoch 3 Finished.
+2024-06-10 18:28:22,084:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 18:28:22,150:INFO : Checkpoint saved.
+2024-06-10 18:28:22,151:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6426028481012658, Current: 0.647745253164557
+2024-06-10 18:28:22,151:INFO :     epoch: 3.00000
+2024-06-10 18:28:22,151:INFO :     loss: 0.98399
+2024-06-10 18:28:22,151:INFO :     top1: 0.65365
+2024-06-10 18:28:22,151:INFO :     top5: 0.96859
+2024-06-10 18:28:22,151:INFO :     eval_loss: 1.01695
+2024-06-10 18:28:22,151:INFO :     eval_top1: 0.64775
+2024-06-10 18:28:22,152:INFO :     eval_top5: 0.96440
+2024-06-10 18:28:22,152:DEBUG : ==> Start Training Epoch 4/15, lr=0.000970 
+2024-06-10 18:30:35,299:DEBUG : ==> Finished Epoch 4/15.
+2024-06-10 18:30:35,299:DEBUG : ++> Evaluate at epoch 4 ...
+2024-06-10 18:31:08,269:DEBUG : ++> Evaluate epoch 4 Finished.
+2024-06-10 18:31:08,270:INFO :     epoch: 4.00000
+2024-06-10 18:31:08,270:INFO :     loss: 0.93919
+2024-06-10 18:31:08,270:INFO :     top1: 0.66963
+2024-06-10 18:31:08,270:INFO :     top5: 0.97228
+2024-06-10 18:31:08,270:INFO :     eval_loss: 1.01740
+2024-06-10 18:31:08,270:INFO :     eval_top1: 0.64636
+2024-06-10 18:31:08,270:INFO :     eval_top5: 0.96222
+2024-06-10 18:31:08,270:DEBUG : ==> Start Training Epoch 5/15, lr=0.000961 
+2024-06-10 18:33:26,161:DEBUG : ==> Finished Epoch 5/15.
+2024-06-10 18:33:26,162:DEBUG : ++> Evaluate at epoch 5 ...
+2024-06-10 18:33:59,728:DEBUG : ++> Evaluate epoch 5 Finished.
+2024-06-10 18:33:59,729:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 18:33:59,770:INFO : Checkpoint saved.
+2024-06-10 18:33:59,770:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.647745253164557, Current: 0.6566455696202531
+2024-06-10 18:33:59,771:INFO :     epoch: 5.00000
+2024-06-10 18:33:59,771:INFO :     loss: 0.88831
+2024-06-10 18:33:59,771:INFO :     top1: 0.68619
+2024-06-10 18:33:59,771:INFO :     top5: 0.97614
+2024-06-10 18:33:59,771:INFO :     eval_loss: 1.01437
+2024-06-10 18:33:59,771:INFO :     eval_top1: 0.65665
+2024-06-10 18:33:59,771:INFO :     eval_top5: 0.96598
+2024-06-10 18:33:59,771:DEBUG : ==> Start Training Epoch 6/15, lr=0.000951 
+2024-06-10 18:36:22,374:DEBUG : ==> Finished Epoch 6/15.
+2024-06-10 18:36:22,375:DEBUG : ++> Evaluate at epoch 6 ...
+2024-06-10 18:36:59,406:DEBUG : ++> Evaluate epoch 6 Finished.
+2024-06-10 18:36:59,407:INFO :     epoch: 6.00000
+2024-06-10 18:36:59,407:INFO :     loss: 0.85226
+2024-06-10 18:36:59,407:INFO :     top1: 0.69955
+2024-06-10 18:36:59,407:INFO :     top5: 0.97900
+2024-06-10 18:36:59,407:INFO :     eval_loss: 1.02282
+2024-06-10 18:36:59,407:INFO :     eval_top1: 0.64656
+2024-06-10 18:36:59,407:INFO :     eval_top5: 0.96381
+2024-06-10 18:36:59,407:DEBUG : ==> Start Training Epoch 7/15, lr=0.000941 
+2024-06-10 18:39:30,070:DEBUG : ==> Finished Epoch 7/15.
+2024-06-10 18:39:30,071:DEBUG : ++> Evaluate at epoch 7 ...
+2024-06-10 18:40:07,668:DEBUG : ++> Evaluate epoch 7 Finished.
+2024-06-10 18:40:07,668:INFO :     epoch: 7.00000
+2024-06-10 18:40:07,668:INFO :     loss: 0.81361
+2024-06-10 18:40:07,668:INFO :     top1: 0.71336
+2024-06-10 18:40:07,668:INFO :     top5: 0.98005
+2024-06-10 18:40:07,668:INFO :     eval_loss: 1.01547
+2024-06-10 18:40:07,669:INFO :     eval_top1: 0.65546
+2024-06-10 18:40:07,669:INFO :     eval_top5: 0.96638
+2024-06-10 18:40:07,669:DEBUG : ==> Start Training Epoch 8/15, lr=0.000932 
+2024-06-10 18:42:33,712:DEBUG : ==> Finished Epoch 8/15.
+2024-06-10 18:42:33,713:DEBUG : ++> Evaluate at epoch 8 ...
+2024-06-10 18:43:08,994:DEBUG : ++> Evaluate epoch 8 Finished.
+2024-06-10 18:43:08,995:INFO :     epoch: 8.00000
+2024-06-10 18:43:08,995:INFO :     loss: 0.77681
+2024-06-10 18:43:08,995:INFO :     top1: 0.72729
+2024-06-10 18:43:08,995:INFO :     top5: 0.98253
+2024-06-10 18:43:08,995:INFO :     eval_loss: 1.01593
+2024-06-10 18:43:08,995:INFO :     eval_top1: 0.64913
+2024-06-10 18:43:08,995:INFO :     eval_top5: 0.96460
+2024-06-10 18:43:08,995:DEBUG : ==> Start Training Epoch 9/15, lr=0.000923 
+2024-06-10 18:45:44,293:DEBUG : ==> Finished Epoch 9/15.
+2024-06-10 18:45:44,294:DEBUG : ++> Evaluate at epoch 9 ...
+2024-06-10 18:46:20,616:DEBUG : ++> Evaluate epoch 9 Finished.
+2024-06-10 18:46:20,617:INFO :     epoch: 9.00000
+2024-06-10 18:46:20,617:INFO :     loss: 0.74013
+2024-06-10 18:46:20,617:INFO :     top1: 0.73828
+2024-06-10 18:46:20,617:INFO :     top5: 0.98386
+2024-06-10 18:46:20,617:INFO :     eval_loss: 1.05072
+2024-06-10 18:46:20,617:INFO :     eval_top1: 0.64775
+2024-06-10 18:46:20,617:INFO :     eval_top5: 0.96361
+2024-06-10 18:46:20,617:DEBUG : ==> Start Training Epoch 10/15, lr=0.000914 
+2024-06-10 18:49:05,386:DEBUG : ==> Finished Epoch 10/15.
+2024-06-10 18:49:05,388:DEBUG : ++> Evaluate at epoch 10 ...
+2024-06-10 18:49:49,725:DEBUG : ++> Evaluate epoch 10 Finished.
+2024-06-10 18:49:49,726:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 18:49:49,779:INFO : Checkpoint saved.
+2024-06-10 18:49:49,780:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6566455696202531, Current: 0.6596123417721519
+2024-06-10 18:49:49,781:INFO :     epoch: 10.00000
+2024-06-10 18:49:49,781:INFO :     loss: 0.70910
+2024-06-10 18:49:49,781:INFO :     top1: 0.74905
+2024-06-10 18:49:49,781:INFO :     top5: 0.98644
+2024-06-10 18:49:49,781:INFO :     eval_loss: 1.04120
+2024-06-10 18:49:49,781:INFO :     eval_top1: 0.65961
+2024-06-10 18:49:49,782:INFO :     eval_top5: 0.96598
+2024-06-10 18:49:49,782:INFO : Saving checkpoint: Saved\CIFAR10_VGG\E10_model.pth ...
+2024-06-10 18:49:49,853:INFO : Checkpoint saved.
+2024-06-10 18:49:49,854:DEBUG : ==> Start Training Epoch 11/15, lr=0.000904 
+2024-06-10 18:52:29,913:DEBUG : ==> Finished Epoch 11/15.
+2024-06-10 18:52:29,915:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-10 18:53:09,395:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-10 18:53:09,395:INFO :     epoch: 11.00000
+2024-06-10 18:53:09,395:INFO :     loss: 0.68396
+2024-06-10 18:53:09,395:INFO :     top1: 0.76017
+2024-06-10 18:53:09,395:INFO :     top5: 0.98679
+2024-06-10 18:53:09,396:INFO :     eval_loss: 1.06109
+2024-06-10 18:53:09,396:INFO :     eval_top1: 0.64577
+2024-06-10 18:53:09,396:INFO :     eval_top5: 0.96440
+2024-06-10 18:53:09,396:DEBUG : ==> Start Training Epoch 12/15, lr=0.000895 
+2024-06-10 18:56:16,656:DEBUG : ==> Finished Epoch 12/15.
+2024-06-10 18:56:16,657:DEBUG : ++> Evaluate at epoch 12 ...
+2024-06-10 18:57:27,514:DEBUG : ++> Evaluate epoch 12 Finished.
+2024-06-10 18:57:27,514:INFO :     epoch: 12.00000
+2024-06-10 18:57:27,515:INFO :     loss: 0.66100
+2024-06-10 18:57:27,515:INFO :     top1: 0.76713
+2024-06-10 18:57:27,515:INFO :     top5: 0.98759
+2024-06-10 18:57:27,515:INFO :     eval_loss: 1.07217
+2024-06-10 18:57:27,515:INFO :     eval_top1: 0.64181
+2024-06-10 18:57:27,515:INFO :     eval_top5: 0.96420
+2024-06-10 18:57:27,515:DEBUG : ==> Start Training Epoch 13/15, lr=0.000886 
+2024-06-10 19:00:47,989:DEBUG : ==> Finished Epoch 13/15.
+2024-06-10 19:00:47,990:DEBUG : ++> Evaluate at epoch 13 ...
+2024-06-10 19:01:39,594:DEBUG : ++> Evaluate epoch 13 Finished.
+2024-06-10 19:01:39,595:INFO :     epoch: 13.00000
+2024-06-10 19:01:39,595:INFO :     loss: 0.63511
+2024-06-10 19:01:39,595:INFO :     top1: 0.77621
+2024-06-10 19:01:39,595:INFO :     top5: 0.98937
+2024-06-10 19:01:39,595:INFO :     eval_loss: 1.06956
+2024-06-10 19:01:39,595:INFO :     eval_top1: 0.65605
+2024-06-10 19:01:39,595:INFO :     eval_top5: 0.96855
+2024-06-10 19:01:39,595:DEBUG : ==> Start Training Epoch 14/15, lr=0.000878 
+2024-06-10 19:05:23,076:DEBUG : ==> Finished Epoch 14/15.
+2024-06-10 19:05:23,077:DEBUG : ++> Evaluate at epoch 14 ...
+2024-06-10 19:06:22,781:DEBUG : ++> Evaluate epoch 14 Finished.
+2024-06-10 19:06:22,782:INFO :     epoch: 14.00000
+2024-06-10 19:06:22,782:INFO :     loss: 0.62000
+2024-06-10 19:06:22,782:INFO :     top1: 0.78196
+2024-06-10 19:06:22,782:INFO :     top5: 0.99077
+2024-06-10 19:06:22,782:INFO :     eval_loss: 1.08479
+2024-06-10 19:06:22,782:INFO :     eval_top1: 0.64854
+2024-06-10 19:06:22,782:INFO :     eval_top5: 0.96697
+2024-06-10 19:06:22,783:DEBUG : ==> Start Training Epoch 15/15, lr=0.000869 
+2024-06-10 19:10:11,417:DEBUG : ==> Finished Epoch 15/15.
+2024-06-10 19:10:11,418:DEBUG : ++> Evaluate at epoch 15 ...
+2024-06-10 19:11:11,401:DEBUG : ++> Evaluate epoch 15 Finished.
+2024-06-10 19:11:11,402:INFO : Saving checkpoint: Saved\CIFAR10_VGG\last_model.pth ...
+2024-06-10 19:11:11,452:INFO : Checkpoint saved.
+2024-06-10 19:14:47,728:INFO : Loading checkpoint: ./Saved/CIFAR10_VGG/last_model.pth ...
+2024-06-10 19:14:47,773:INFO : Checkpoint loaded.
+2024-06-10 19:14:47,773:DEBUG : ++> Evaluate at epoch 15 ...
+2024-06-10 19:15:41,109:DEBUG : ++> Evaluate epoch 15 Finished.
+2024-06-10 19:52:28,469:INFO : ------------ New Training Session ------------
+2024-06-10 19:52:28,469:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 19:54:45,162:INFO : ------------ New Training Session ------------
+2024-06-10 19:54:45,163:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 19:55:26,583:DEBUG : ==> Finished Epoch 1/15.
+2024-06-10 19:55:26,591:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-10 19:55:49,077:DEBUG : ++> Evaluate epoch 1 Finished.
+2024-06-10 19:55:49,078:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 19:55:49,231:INFO : Checkpoint saved.
+2024-06-10 19:55:49,232:INFO : Saved model on eval based on eval_top1 at this step. Previous: -inf, Current: 0.7850079113924051
+2024-06-10 19:55:49,233:INFO :     epoch: 1.00000
+2024-06-10 19:55:49,234:INFO :     loss: 0.71797
+2024-06-10 19:55:49,234:INFO :     top1: 0.75781
+2024-06-10 19:55:49,234:INFO :     top5: 0.98065
+2024-06-10 19:55:49,234:INFO :     eval_loss: 0.65143
+2024-06-10 19:55:49,234:INFO :     eval_top1: 0.78501
+2024-06-10 19:55:49,234:INFO :     eval_top5: 0.98635
+2024-06-10 19:55:49,234:DEBUG : ==> Start Training Epoch 2/15, lr=0.000990 
+2024-06-10 19:56:28,741:DEBUG : ==> Finished Epoch 2/15.
+2024-06-10 19:56:28,742:DEBUG : ++> Evaluate at epoch 2 ...
+2024-06-10 19:56:51,369:DEBUG : ++> Evaluate epoch 2 Finished.
+2024-06-10 19:56:51,370:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 19:56:51,457:INFO : Checkpoint saved.
+2024-06-10 19:56:51,458:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.7850079113924051, Current: 0.8202136075949367
+2024-06-10 19:56:51,459:INFO :     epoch: 2.00000
+2024-06-10 19:56:51,459:INFO :     loss: 0.43155
+2024-06-10 19:56:51,459:INFO :     top1: 0.85434
+2024-06-10 19:56:51,459:INFO :     top5: 0.99390
+2024-06-10 19:56:51,459:INFO :     eval_loss: 0.53903
+2024-06-10 19:56:51,459:INFO :     eval_top1: 0.82021
+2024-06-10 19:56:51,459:INFO :     eval_top5: 0.99090
+2024-06-10 19:56:51,459:DEBUG : ==> Start Training Epoch 3/15, lr=0.000980 
+2024-06-10 19:57:30,911:DEBUG : ==> Finished Epoch 3/15.
+2024-06-10 19:57:30,911:DEBUG : ++> Evaluate at epoch 3 ...
+2024-06-10 19:57:52,692:DEBUG : ++> Evaluate epoch 3 Finished.
+2024-06-10 19:57:52,692:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 19:57:52,750:INFO : Checkpoint saved.
+2024-06-10 19:57:52,750:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8202136075949367, Current: 0.8514636075949367
+2024-06-10 19:57:52,750:INFO :     epoch: 3.00000
+2024-06-10 19:57:52,751:INFO :     loss: 0.29144
+2024-06-10 19:57:52,751:INFO :     top1: 0.90237
+2024-06-10 19:57:52,751:INFO :     top5: 0.99683
+2024-06-10 19:57:52,751:INFO :     eval_loss: 0.46865
+2024-06-10 19:57:52,751:INFO :     eval_top1: 0.85146
+2024-06-10 19:57:52,751:INFO :     eval_top5: 0.99070
+2024-06-10 19:57:52,751:DEBUG : ==> Start Training Epoch 4/15, lr=0.000970 
+2024-06-10 19:58:32,416:DEBUG : ==> Finished Epoch 4/15.
+2024-06-10 19:58:32,417:DEBUG : ++> Evaluate at epoch 4 ...
+2024-06-10 19:58:55,835:DEBUG : ++> Evaluate epoch 4 Finished.
+2024-06-10 19:58:55,836:INFO :     epoch: 4.00000
+2024-06-10 19:58:55,836:INFO :     loss: 0.19772
+2024-06-10 19:58:55,836:INFO :     top1: 0.93415
+2024-06-10 19:58:55,836:INFO :     top5: 0.99869
+2024-06-10 19:58:55,836:INFO :     eval_loss: 0.52340
+2024-06-10 19:58:55,836:INFO :     eval_top1: 0.84078
+2024-06-10 19:58:55,836:INFO :     eval_top5: 0.99090
+2024-06-10 19:58:55,837:DEBUG : ==> Start Training Epoch 5/15, lr=0.000961 
+2024-06-10 19:59:34,825:DEBUG : ==> Finished Epoch 5/15.
+2024-06-10 19:59:34,826:DEBUG : ++> Evaluate at epoch 5 ...
+2024-06-10 19:59:57,971:DEBUG : ++> Evaluate epoch 5 Finished.
+2024-06-10 19:59:57,972:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 19:59:58,068:INFO : Checkpoint saved.
+2024-06-10 19:59:58,069:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8514636075949367, Current: 0.8566060126582279
+2024-06-10 19:59:58,069:INFO :     epoch: 5.00000
+2024-06-10 19:59:58,069:INFO :     loss: 0.14688
+2024-06-10 19:59:58,069:INFO :     top1: 0.95066
+2024-06-10 19:59:58,069:INFO :     top5: 0.99958
+2024-06-10 19:59:58,070:INFO :     eval_loss: 0.50265
+2024-06-10 19:59:58,070:INFO :     eval_top1: 0.85661
+2024-06-10 19:59:58,070:INFO :     eval_top5: 0.99288
+2024-06-10 19:59:58,070:DEBUG : ==> Start Training Epoch 6/15, lr=0.000951 
+2024-06-10 20:00:38,755:DEBUG : ==> Finished Epoch 6/15.
+2024-06-10 20:00:38,756:DEBUG : ++> Evaluate at epoch 6 ...
+2024-06-10 20:01:02,143:DEBUG : ++> Evaluate epoch 6 Finished.
+2024-06-10 20:01:02,143:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 20:01:02,215:INFO : Checkpoint saved.
+2024-06-10 20:01:02,215:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8566060126582279, Current: 0.8621439873417721
+2024-06-10 20:01:02,216:INFO :     epoch: 6.00000
+2024-06-10 20:01:02,216:INFO :     loss: 0.11421
+2024-06-10 20:01:02,216:INFO :     top1: 0.96005
+2024-06-10 20:01:02,216:INFO :     top5: 0.99984
+2024-06-10 20:01:02,216:INFO :     eval_loss: 0.48785
+2024-06-10 20:01:02,216:INFO :     eval_top1: 0.86214
+2024-06-10 20:01:02,216:INFO :     eval_top5: 0.99189
+2024-06-10 20:01:02,217:DEBUG : ==> Start Training Epoch 7/15, lr=0.000941 
+2024-06-10 20:01:42,646:DEBUG : ==> Finished Epoch 7/15.
+2024-06-10 20:01:42,647:DEBUG : ++> Evaluate at epoch 7 ...
+2024-06-10 20:02:06,129:DEBUG : ++> Evaluate epoch 7 Finished.
+2024-06-10 20:02:06,130:INFO :     epoch: 7.00000
+2024-06-10 20:02:06,130:INFO :     loss: 0.09477
+2024-06-10 20:02:06,130:INFO :     top1: 0.96742
+2024-06-10 20:02:06,130:INFO :     top5: 0.99984
+2024-06-10 20:02:06,130:INFO :     eval_loss: 0.58308
+2024-06-10 20:02:06,130:INFO :     eval_top1: 0.84573
+2024-06-10 20:02:06,130:INFO :     eval_top5: 0.99011
+2024-06-10 20:02:06,131:DEBUG : ==> Start Training Epoch 8/15, lr=0.000932 
+2024-06-10 20:02:45,480:DEBUG : ==> Finished Epoch 8/15.
+2024-06-10 20:02:45,481:DEBUG : ++> Evaluate at epoch 8 ...
+2024-06-10 20:03:07,746:DEBUG : ++> Evaluate epoch 8 Finished.
+2024-06-10 20:03:07,746:INFO :     epoch: 8.00000
+2024-06-10 20:03:07,746:INFO :     loss: 0.08242
+2024-06-10 20:03:07,746:INFO :     top1: 0.97203
+2024-06-10 20:03:07,746:INFO :     top5: 0.99982
+2024-06-10 20:03:07,746:INFO :     eval_loss: 0.55084
+2024-06-10 20:03:07,746:INFO :     eval_top1: 0.84949
+2024-06-10 20:03:07,746:INFO :     eval_top5: 0.99248
+2024-06-10 20:03:07,747:DEBUG : ==> Start Training Epoch 9/15, lr=0.000923 
+2024-06-10 20:03:47,693:DEBUG : ==> Finished Epoch 9/15.
+2024-06-10 20:03:47,693:DEBUG : ++> Evaluate at epoch 9 ...
+2024-06-10 20:04:10,920:DEBUG : ++> Evaluate epoch 9 Finished.
+2024-06-10 20:04:10,921:INFO :     epoch: 9.00000
+2024-06-10 20:04:10,921:INFO :     loss: 0.07330
+2024-06-10 20:04:10,921:INFO :     top1: 0.97652
+2024-06-10 20:04:10,921:INFO :     top5: 0.99978
+2024-06-10 20:04:10,921:INFO :     eval_loss: 0.60981
+2024-06-10 20:04:10,921:INFO :     eval_top1: 0.84909
+2024-06-10 20:04:10,921:INFO :     eval_top5: 0.98932
+2024-06-10 20:04:10,922:DEBUG : ==> Start Training Epoch 10/15, lr=0.000914 
+2024-06-10 20:04:50,997:DEBUG : ==> Finished Epoch 10/15.
+2024-06-10 20:04:50,997:DEBUG : ++> Evaluate at epoch 10 ...
+2024-06-10 20:05:14,651:DEBUG : ++> Evaluate epoch 10 Finished.
+2024-06-10 20:05:14,651:INFO :     epoch: 10.00000
+2024-06-10 20:05:14,652:INFO :     loss: 0.07288
+2024-06-10 20:05:14,652:INFO :     top1: 0.97561
+2024-06-10 20:05:14,652:INFO :     top5: 0.99984
+2024-06-10 20:05:14,652:INFO :     eval_loss: 0.59903
+2024-06-10 20:05:14,652:INFO :     eval_top1: 0.85107
+2024-06-10 20:05:14,652:INFO :     eval_top5: 0.99110
+2024-06-10 20:05:14,652:INFO : Saving checkpoint: Saved\CIFAR10_VGG\E10_model.pth ...
+2024-06-10 20:05:14,761:INFO : Checkpoint saved.
+2024-06-10 20:05:14,765:DEBUG : ==> Start Training Epoch 11/15, lr=0.000904 
+2024-06-10 20:05:55,599:DEBUG : ==> Finished Epoch 11/15.
+2024-06-10 20:05:55,599:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-10 20:06:18,912:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-10 20:06:18,912:INFO : Saving checkpoint: Saved\CIFAR10_VGG\last_model.pth ...
+2024-06-10 20:06:18,986:INFO : Checkpoint saved.
+2024-06-10 20:09:36,597:INFO : Loading checkpoint: ./Saved/CIFAR10_VGG/last_model.pth ...
+2024-06-10 20:09:36,677:INFO : Checkpoint loaded.
+2024-06-10 20:09:36,678:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-10 20:09:56,046:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-10 20:23:38,676:INFO : ------------ New Training Session ------------
+2024-06-10 20:23:38,676:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-10 20:24:18,769:DEBUG : ==> Finished Epoch 1/15.
+2024-06-10 20:24:18,769:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-10 20:24:40,855:DEBUG : ++> Evaluate epoch 1 Finished.
+2024-06-10 20:24:40,855:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 20:24:40,916:INFO : Checkpoint saved.
+2024-06-10 20:24:40,916:INFO : Saved model on eval based on eval_top1 at this step. Previous: -inf, Current: 0.799248417721519
+2024-06-10 20:24:40,916:INFO :     epoch: 1.00000
+2024-06-10 20:24:40,917:INFO :     loss: 0.73346
+2024-06-10 20:24:40,917:INFO :     top1: 0.75200
+2024-06-10 20:24:40,917:INFO :     top5: 0.97818
+2024-06-10 20:24:40,917:INFO :     eval_loss: 0.58970
+2024-06-10 20:24:40,917:INFO :     eval_top1: 0.79925
+2024-06-10 20:24:40,917:INFO :     eval_top5: 0.98892
+2024-06-10 20:24:40,917:DEBUG : ==> Start Training Epoch 2/15, lr=0.000990 
+2024-06-10 20:25:18,873:DEBUG : ==> Finished Epoch 2/15.
+2024-06-10 20:25:18,874:DEBUG : ++> Evaluate at epoch 2 ...
+2024-06-10 20:25:41,037:DEBUG : ++> Evaluate epoch 2 Finished.
+2024-06-10 20:25:41,038:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 20:25:41,097:INFO : Checkpoint saved.
+2024-06-10 20:25:41,097:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.799248417721519, Current: 0.818631329113924
+2024-06-10 20:25:41,097:INFO :     epoch: 2.00000
+2024-06-10 20:25:41,097:INFO :     loss: 0.43705
+2024-06-10 20:25:41,098:INFO :     top1: 0.85414
+2024-06-10 20:25:41,098:INFO :     top5: 0.99345
+2024-06-10 20:25:41,098:INFO :     eval_loss: 0.52951
+2024-06-10 20:25:41,098:INFO :     eval_top1: 0.81863
+2024-06-10 20:25:41,098:INFO :     eval_top5: 0.99189
+2024-06-10 20:25:41,098:DEBUG : ==> Start Training Epoch 3/15, lr=0.000980 
+2024-06-10 20:26:19,493:DEBUG : ==> Finished Epoch 3/15.
+2024-06-10 20:26:19,494:DEBUG : ++> Evaluate at epoch 3 ...
+2024-06-10 20:26:41,727:DEBUG : ++> Evaluate epoch 3 Finished.
+2024-06-10 20:26:41,727:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 20:26:41,794:INFO : Checkpoint saved.
+2024-06-10 20:26:41,794:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.818631329113924, Current: 0.8540348101265823
+2024-06-10 20:26:41,794:INFO :     epoch: 3.00000
+2024-06-10 20:26:41,794:INFO :     loss: 0.29565
+2024-06-10 20:26:41,794:INFO :     top1: 0.90174
+2024-06-10 20:26:41,794:INFO :     top5: 0.99718
+2024-06-10 20:26:41,794:INFO :     eval_loss: 0.43793
+2024-06-10 20:26:41,795:INFO :     eval_top1: 0.85403
+2024-06-10 20:26:41,795:INFO :     eval_top5: 0.99347
+2024-06-10 20:26:41,795:DEBUG : ==> Start Training Epoch 4/15, lr=0.000970 
+2024-06-10 20:27:20,701:DEBUG : ==> Finished Epoch 4/15.
+2024-06-10 20:27:20,702:DEBUG : ++> Evaluate at epoch 4 ...
+2024-06-10 20:27:43,612:DEBUG : ++> Evaluate epoch 4 Finished.
+2024-06-10 20:27:43,612:INFO :     epoch: 4.00000
+2024-06-10 20:27:43,613:INFO :     loss: 0.20440
+2024-06-10 20:27:43,613:INFO :     top1: 0.93151
+2024-06-10 20:27:43,613:INFO :     top5: 0.99909
+2024-06-10 20:27:43,613:INFO :     eval_loss: 0.47307
+2024-06-10 20:27:43,613:INFO :     eval_top1: 0.84929
+2024-06-10 20:27:43,613:INFO :     eval_top5: 0.99268
+2024-06-10 20:27:43,613:DEBUG : ==> Start Training Epoch 5/15, lr=0.000961 
+2024-06-10 20:28:22,326:DEBUG : ==> Finished Epoch 5/15.
+2024-06-10 20:28:22,327:DEBUG : ++> Evaluate at epoch 5 ...
+2024-06-10 20:28:45,156:DEBUG : ++> Evaluate epoch 5 Finished.
+2024-06-10 20:28:45,156:INFO :     epoch: 5.00000
+2024-06-10 20:28:45,157:INFO :     loss: 0.15355
+2024-06-10 20:28:45,157:INFO :     top1: 0.94735
+2024-06-10 20:28:45,157:INFO :     top5: 0.99949
+2024-06-10 20:28:45,157:INFO :     eval_loss: 0.53905
+2024-06-10 20:28:45,157:INFO :     eval_top1: 0.84869
+2024-06-10 20:28:45,157:INFO :     eval_top5: 0.98912
+2024-06-10 20:28:45,157:DEBUG : ==> Start Training Epoch 6/15, lr=0.000951 
+2024-06-10 20:29:25,488:DEBUG : ==> Finished Epoch 6/15.
+2024-06-10 20:29:25,489:DEBUG : ++> Evaluate at epoch 6 ...
+2024-06-10 20:29:48,825:DEBUG : ++> Evaluate epoch 6 Finished.
+2024-06-10 20:29:48,826:INFO :     epoch: 6.00000
+2024-06-10 20:29:48,826:INFO :     loss: 0.12326
+2024-06-10 20:29:48,826:INFO :     top1: 0.95856
+2024-06-10 20:29:48,826:INFO :     top5: 0.99960
+2024-06-10 20:29:48,826:INFO :     eval_loss: 0.52537
+2024-06-10 20:29:48,826:INFO :     eval_top1: 0.85265
+2024-06-10 20:29:48,826:INFO :     eval_top5: 0.99090
+2024-06-10 20:29:48,827:DEBUG : ==> Start Training Epoch 7/15, lr=0.000941 
+2024-06-10 20:30:28,317:DEBUG : ==> Finished Epoch 7/15.
+2024-06-10 20:30:28,318:DEBUG : ++> Evaluate at epoch 7 ...
+2024-06-10 20:30:51,465:DEBUG : ++> Evaluate epoch 7 Finished.
+2024-06-10 20:30:51,466:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-10 20:30:51,532:INFO : Checkpoint saved.
+2024-06-10 20:30:51,532:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8540348101265823, Current: 0.8589794303797469
+2024-06-10 20:30:51,533:INFO :     epoch: 7.00000
+2024-06-10 20:30:51,533:INFO :     loss: 0.08742
+2024-06-10 20:30:51,533:INFO :     top1: 0.97075
+2024-06-10 20:30:51,533:INFO :     top5: 0.99996
+2024-06-10 20:30:51,533:INFO :     eval_loss: 0.52735
+2024-06-10 20:30:51,533:INFO :     eval_top1: 0.85898
+2024-06-10 20:30:51,533:INFO :     eval_top5: 0.99110
+2024-06-10 20:30:51,533:DEBUG : ==> Start Training Epoch 8/15, lr=0.000932 
+2024-06-10 20:31:30,943:DEBUG : ==> Finished Epoch 8/15.
+2024-06-10 20:31:30,943:DEBUG : ++> Evaluate at epoch 8 ...
+2024-06-10 20:31:54,730:DEBUG : ++> Evaluate epoch 8 Finished.
+2024-06-10 20:31:54,731:INFO :     epoch: 8.00000
+2024-06-10 20:31:54,731:INFO :     loss: 0.07808
+2024-06-10 20:31:54,731:INFO :     top1: 0.97337
+2024-06-10 20:31:54,731:INFO :     top5: 0.99987
+2024-06-10 20:31:54,731:INFO :     eval_loss: 0.61934
+2024-06-10 20:31:54,731:INFO :     eval_top1: 0.84316
+2024-06-10 20:31:54,731:INFO :     eval_top5: 0.99090
+2024-06-10 20:31:54,732:DEBUG : ==> Start Training Epoch 9/15, lr=0.000923 
+2024-06-10 20:34:00,445:DEBUG : ==> Finished Epoch 9/15.
+2024-06-10 20:34:00,446:DEBUG : ++> Evaluate at epoch 9 ...
+2024-06-11 10:55:50,706:INFO : ------------ New Training Session ------------
+2024-06-11 10:55:50,713:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-11 10:56:34,596:DEBUG : ==> Finished Epoch 1/15.
+2024-06-11 10:56:34,597:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-11 10:56:58,234:DEBUG : ++> Evaluate epoch 1 Finished.
+2024-06-11 10:56:58,234:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 10:56:58,318:INFO : Checkpoint saved.
+2024-06-11 10:56:58,319:INFO : Saved model on eval based on eval_top1 at this step. Previous: -inf, Current: 0.8000395569620253
+2024-06-11 10:56:58,319:INFO :     epoch: 1.00000
+2024-06-11 10:56:58,319:INFO :     loss: 0.72381
+2024-06-11 10:56:58,320:INFO :     top1: 0.75477
+2024-06-11 10:56:58,320:INFO :     top5: 0.98031
+2024-06-11 10:56:58,320:INFO :     eval_loss: 0.58646
+2024-06-11 10:56:58,320:INFO :     eval_top1: 0.80004
+2024-06-11 10:56:58,320:INFO :     eval_top5: 0.98892
+2024-06-11 10:56:58,320:DEBUG : ==> Start Training Epoch 2/15, lr=0.000990 
+2024-06-11 10:57:37,758:DEBUG : ==> Finished Epoch 2/15.
+2024-06-11 10:57:37,759:DEBUG : ++> Evaluate at epoch 2 ...
+2024-06-11 10:58:00,516:DEBUG : ++> Evaluate epoch 2 Finished.
+2024-06-11 10:58:00,516:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 10:58:00,600:INFO : Checkpoint saved.
+2024-06-11 10:58:00,601:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8000395569620253, Current: 0.8346518987341772
+2024-06-11 10:58:00,602:INFO :     epoch: 2.00000
+2024-06-11 10:58:00,602:INFO :     loss: 0.43185
+2024-06-11 10:58:00,602:INFO :     top1: 0.85502
+2024-06-11 10:58:00,602:INFO :     top5: 0.99336
+2024-06-11 10:58:00,602:INFO :     eval_loss: 0.49836
+2024-06-11 10:58:00,602:INFO :     eval_top1: 0.83465
+2024-06-11 10:58:00,602:INFO :     eval_top5: 0.99130
+2024-06-11 10:58:00,603:DEBUG : ==> Start Training Epoch 3/15, lr=0.000980 
+2024-06-11 10:58:40,359:DEBUG : ==> Finished Epoch 3/15.
+2024-06-11 10:58:40,360:DEBUG : ++> Evaluate at epoch 3 ...
+2024-06-11 10:59:03,198:DEBUG : ++> Evaluate epoch 3 Finished.
+2024-06-11 10:59:03,199:INFO :     epoch: 3.00000
+2024-06-11 10:59:03,199:INFO :     loss: 0.29397
+2024-06-11 10:59:03,199:INFO :     top1: 0.90021
+2024-06-11 10:59:03,199:INFO :     top5: 0.99743
+2024-06-11 10:59:03,199:INFO :     eval_loss: 0.53691
+2024-06-11 10:59:03,199:INFO :     eval_top1: 0.82338
+2024-06-11 10:59:03,199:INFO :     eval_top5: 0.99209
+2024-06-11 10:59:03,199:DEBUG : ==> Start Training Epoch 4/15, lr=0.000970 
+2024-06-11 10:59:42,562:DEBUG : ==> Finished Epoch 4/15.
+2024-06-11 10:59:42,563:DEBUG : ++> Evaluate at epoch 4 ...
+2024-06-11 11:00:05,365:DEBUG : ++> Evaluate epoch 4 Finished.
+2024-06-11 11:00:05,365:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:00:05,443:INFO : Checkpoint saved.
+2024-06-11 11:00:05,444:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8346518987341772, Current: 0.8562104430379747
+2024-06-11 11:00:05,444:INFO :     epoch: 4.00000
+2024-06-11 11:00:05,444:INFO :     loss: 0.20048
+2024-06-11 11:00:05,444:INFO :     top1: 0.93175
+2024-06-11 11:00:05,444:INFO :     top5: 0.99893
+2024-06-11 11:00:05,444:INFO :     eval_loss: 0.45573
+2024-06-11 11:00:05,444:INFO :     eval_top1: 0.85621
+2024-06-11 11:00:05,445:INFO :     eval_top5: 0.99407
+2024-06-11 11:00:05,445:DEBUG : ==> Start Training Epoch 5/15, lr=0.000961 
+2024-06-11 11:00:47,500:DEBUG : ==> Finished Epoch 5/15.
+2024-06-11 11:00:47,503:DEBUG : ++> Evaluate at epoch 5 ...
+2024-06-11 11:01:12,457:DEBUG : ++> Evaluate epoch 5 Finished.
+2024-06-11 11:01:12,457:INFO :     epoch: 5.00000
+2024-06-11 11:01:12,458:INFO :     loss: 0.14358
+2024-06-11 11:01:12,458:INFO :     top1: 0.95124
+2024-06-11 11:01:12,458:INFO :     top5: 0.99933
+2024-06-11 11:01:12,458:INFO :     eval_loss: 0.54921
+2024-06-11 11:01:12,458:INFO :     eval_top1: 0.84335
+2024-06-11 11:01:12,458:INFO :     eval_top5: 0.99189
+2024-06-11 11:01:12,458:DEBUG : ==> Start Training Epoch 6/15, lr=0.000951 
+2024-06-11 11:01:53,524:DEBUG : ==> Finished Epoch 6/15.
+2024-06-11 11:01:53,525:DEBUG : ++> Evaluate at epoch 6 ...
+2024-06-11 11:02:17,230:DEBUG : ++> Evaluate epoch 6 Finished.
+2024-06-11 11:02:17,231:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:02:17,332:INFO : Checkpoint saved.
+2024-06-11 11:02:17,332:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.8562104430379747, Current: 0.8564082278481012
+2024-06-11 11:02:17,333:INFO :     epoch: 6.00000
+2024-06-11 11:02:17,333:INFO :     loss: 0.11880
+2024-06-11 11:02:17,333:INFO :     top1: 0.96076
+2024-06-11 11:02:17,333:INFO :     top5: 0.99971
+2024-06-11 11:02:17,333:INFO :     eval_loss: 0.52513
+2024-06-11 11:02:17,333:INFO :     eval_top1: 0.85641
+2024-06-11 11:02:17,333:INFO :     eval_top5: 0.99209
+2024-06-11 11:02:17,334:DEBUG : ==> Start Training Epoch 7/15, lr=0.000941 
+2024-06-11 11:02:58,840:DEBUG : ==> Finished Epoch 7/15.
+2024-06-11 11:02:58,841:DEBUG : ++> Evaluate at epoch 7 ...
+2024-06-11 11:03:22,462:DEBUG : ++> Evaluate epoch 7 Finished.
+2024-06-11 11:03:22,463:INFO :     epoch: 7.00000
+2024-06-11 11:03:22,463:INFO :     loss: 0.09092
+2024-06-11 11:03:22,463:INFO :     top1: 0.97008
+2024-06-11 11:03:22,463:INFO :     top5: 0.99987
+2024-06-11 11:03:22,463:INFO :     eval_loss: 0.54898
+2024-06-11 11:03:22,463:INFO :     eval_top1: 0.85621
+2024-06-11 11:03:22,463:INFO :     eval_top5: 0.99169
+2024-06-11 11:03:22,463:DEBUG : ==> Start Training Epoch 8/15, lr=0.000932 
+2024-06-11 11:04:03,463:DEBUG : ==> Finished Epoch 8/15.
+2024-06-11 11:04:03,466:DEBUG : ++> Evaluate at epoch 8 ...
+2024-06-11 11:04:27,143:DEBUG : ++> Evaluate epoch 8 Finished.
+2024-06-11 11:04:27,143:INFO :     epoch: 8.00000
+2024-06-11 11:04:27,144:INFO :     loss: 0.08905
+2024-06-11 11:04:27,144:INFO :     top1: 0.97008
+2024-06-11 11:04:27,144:INFO :     top5: 0.99987
+2024-06-11 11:04:27,144:INFO :     eval_loss: 0.60515
+2024-06-11 11:04:27,144:INFO :     eval_top1: 0.85087
+2024-06-11 11:04:27,144:INFO :     eval_top5: 0.99229
+2024-06-11 11:04:27,144:DEBUG : ==> Start Training Epoch 9/15, lr=0.000923 
+2024-06-11 11:05:08,237:DEBUG : ==> Finished Epoch 9/15.
+2024-06-11 11:05:08,238:DEBUG : ++> Evaluate at epoch 9 ...
+2024-06-11 11:05:32,297:DEBUG : ++> Evaluate epoch 9 Finished.
+2024-06-11 11:05:32,297:INFO :     epoch: 9.00000
+2024-06-11 11:05:32,298:INFO :     loss: 0.07599
+2024-06-11 11:05:32,298:INFO :     top1: 0.97421
+2024-06-11 11:05:32,298:INFO :     top5: 0.99982
+2024-06-11 11:05:32,298:INFO :     eval_loss: 0.59466
+2024-06-11 11:05:32,298:INFO :     eval_top1: 0.84889
+2024-06-11 11:05:32,298:INFO :     eval_top5: 0.99070
+2024-06-11 11:05:32,298:DEBUG : ==> Start Training Epoch 10/15, lr=0.000914 
+2024-06-11 11:06:13,008:DEBUG : ==> Finished Epoch 10/15.
+2024-06-11 11:06:13,009:DEBUG : ++> Evaluate at epoch 10 ...
+2024-06-11 11:06:37,082:DEBUG : ++> Evaluate epoch 10 Finished.
+2024-06-11 11:06:37,082:INFO :     epoch: 10.00000
+2024-06-11 11:06:37,083:INFO :     loss: 0.05998
+2024-06-11 11:06:37,083:INFO :     top1: 0.98007
+2024-06-11 11:06:37,083:INFO :     top5: 0.99991
+2024-06-11 11:06:37,083:INFO :     eval_loss: 0.56958
+2024-06-11 11:06:37,083:INFO :     eval_top1: 0.85621
+2024-06-11 11:06:37,083:INFO :     eval_top5: 0.99130
+2024-06-11 11:06:37,083:INFO : Saving checkpoint: Saved\CIFAR10_VGG\E10_model.pth ...
+2024-06-11 11:06:37,174:INFO : Checkpoint saved.
+2024-06-11 11:06:37,184:DEBUG : ==> Start Training Epoch 11/15, lr=0.000904 
+2024-06-11 11:07:17,654:DEBUG : ==> Finished Epoch 11/15.
+2024-06-11 11:07:17,655:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-11 11:07:41,632:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-11 11:07:41,633:INFO : Saving checkpoint: Saved\CIFAR10_VGG\last_model.pth ...
+2024-06-11 11:07:41,708:INFO : Checkpoint saved.
+2024-06-11 11:11:17,525:INFO : Loading checkpoint: ./Saved/CIFAR10_VGG/last_model.pth ...
+2024-06-11 11:11:17,604:INFO : Checkpoint loaded.
+2024-06-11 11:11:17,604:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-11 11:11:39,142:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-11 11:16:18,125:INFO : Loading checkpoint: ./Saved/CIFAR10_VGG/last_model.pth ...
+2024-06-11 11:16:18,177:INFO : Checkpoint loaded.
+2024-06-11 11:16:18,177:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-11 11:16:38,144:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-11 11:30:02,786:INFO : ------------ New Training Session ------------
+2024-06-11 11:30:02,786:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-11 11:30:35,160:DEBUG : ==> Finished Epoch 1/15.
+2024-06-11 11:30:35,160:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-11 11:30:57,744:DEBUG : ++> Evaluate epoch 1 Finished.
+2024-06-11 11:30:57,744:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:30:57,817:INFO : Checkpoint saved.
+2024-06-11 11:30:57,817:INFO : Saved model on eval based on eval_top1 at this step. Previous: -inf, Current: 0.6331091772151899
+2024-06-11 11:30:57,817:INFO :     epoch: 1.00000
+2024-06-11 11:30:57,818:INFO :     loss: 1.20341
+2024-06-11 11:30:57,818:INFO :     top1: 0.58105
+2024-06-11 11:30:57,818:INFO :     top5: 0.94451
+2024-06-11 11:30:57,818:INFO :     eval_loss: 1.05908
+2024-06-11 11:30:57,818:INFO :     eval_top1: 0.63311
+2024-06-11 11:30:57,818:INFO :     eval_top5: 0.95906
+2024-06-11 11:30:57,818:DEBUG : ==> Start Training Epoch 2/15, lr=0.000990 
+2024-06-11 11:31:27,793:DEBUG : ==> Finished Epoch 2/15.
+2024-06-11 11:31:27,794:DEBUG : ++> Evaluate at epoch 2 ...
+2024-06-11 11:31:50,304:DEBUG : ++> Evaluate epoch 2 Finished.
+2024-06-11 11:31:50,305:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:31:50,388:INFO : Checkpoint saved.
+2024-06-11 11:31:50,388:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6331091772151899, Current: 0.6441851265822784
+2024-06-11 11:31:50,389:INFO :     epoch: 2.00000
+2024-06-11 11:31:50,389:INFO :     loss: 1.04864
+2024-06-11 11:31:50,390:INFO :     top1: 0.63492
+2024-06-11 11:31:50,390:INFO :     top5: 0.96260
+2024-06-11 11:31:50,390:INFO :     eval_loss: 1.03020
+2024-06-11 11:31:50,390:INFO :     eval_top1: 0.64419
+2024-06-11 11:31:50,390:INFO :     eval_top5: 0.96044
+2024-06-11 11:31:50,390:DEBUG : ==> Start Training Epoch 3/15, lr=0.000980 
+2024-06-11 11:32:20,352:DEBUG : ==> Finished Epoch 3/15.
+2024-06-11 11:32:20,353:DEBUG : ++> Evaluate at epoch 3 ...
+2024-06-11 11:32:42,854:DEBUG : ++> Evaluate epoch 3 Finished.
+2024-06-11 11:32:42,854:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:32:42,954:INFO : Checkpoint saved.
+2024-06-11 11:32:42,955:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6441851265822784, Current: 0.645371835443038
+2024-06-11 11:32:42,955:INFO :     epoch: 3.00000
+2024-06-11 11:32:42,956:INFO :     loss: 0.98381
+2024-06-11 11:32:42,956:INFO :     top1: 0.65554
+2024-06-11 11:32:42,956:INFO :     top5: 0.96842
+2024-06-11 11:32:42,956:INFO :     eval_loss: 1.02337
+2024-06-11 11:32:42,956:INFO :     eval_top1: 0.64537
+2024-06-11 11:32:42,956:INFO :     eval_top5: 0.96084
+2024-06-11 11:32:42,956:DEBUG : ==> Start Training Epoch 4/15, lr=0.000970 
+2024-06-11 11:33:12,851:DEBUG : ==> Finished Epoch 4/15.
+2024-06-11 11:33:12,852:DEBUG : ++> Evaluate at epoch 4 ...
+2024-06-11 11:33:35,402:DEBUG : ++> Evaluate epoch 4 Finished.
+2024-06-11 11:33:35,402:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:33:35,501:INFO : Checkpoint saved.
+2024-06-11 11:33:35,501:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.645371835443038, Current: 0.6483386075949367
+2024-06-11 11:33:35,502:INFO :     epoch: 4.00000
+2024-06-11 11:33:35,502:INFO :     loss: 0.93674
+2024-06-11 11:33:35,502:INFO :     top1: 0.66974
+2024-06-11 11:33:35,502:INFO :     top5: 0.97197
+2024-06-11 11:33:35,502:INFO :     eval_loss: 1.01339
+2024-06-11 11:33:35,502:INFO :     eval_top1: 0.64834
+2024-06-11 11:33:35,502:INFO :     eval_top5: 0.96737
+2024-06-11 11:33:35,503:DEBUG : ==> Start Training Epoch 5/15, lr=0.000961 
+2024-06-11 11:34:05,781:DEBUG : ==> Finished Epoch 5/15.
+2024-06-11 11:34:05,782:DEBUG : ++> Evaluate at epoch 5 ...
+2024-06-11 11:34:28,684:DEBUG : ++> Evaluate epoch 5 Finished.
+2024-06-11 11:34:28,685:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:34:28,764:INFO : Checkpoint saved.
+2024-06-11 11:34:28,764:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6483386075949367, Current: 0.6526898734177216
+2024-06-11 11:34:28,765:INFO :     epoch: 5.00000
+2024-06-11 11:34:28,765:INFO :     loss: 0.88854
+2024-06-11 11:34:28,765:INFO :     top1: 0.68857
+2024-06-11 11:34:28,765:INFO :     top5: 0.97594
+2024-06-11 11:34:28,765:INFO :     eval_loss: 1.00920
+2024-06-11 11:34:28,765:INFO :     eval_top1: 0.65269
+2024-06-11 11:34:28,765:INFO :     eval_top5: 0.96717
+2024-06-11 11:34:28,766:DEBUG : ==> Start Training Epoch 6/15, lr=0.000951 
+2024-06-11 11:34:58,723:DEBUG : ==> Finished Epoch 6/15.
+2024-06-11 11:34:58,725:DEBUG : ++> Evaluate at epoch 6 ...
+2024-06-11 11:35:21,963:DEBUG : ++> Evaluate epoch 6 Finished.
+2024-06-11 11:35:21,963:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:35:22,039:INFO : Checkpoint saved.
+2024-06-11 11:35:22,039:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6526898734177216, Current: 0.6540743670886076
+2024-06-11 11:35:22,040:INFO :     epoch: 6.00000
+2024-06-11 11:35:22,040:INFO :     loss: 0.84967
+2024-06-11 11:35:22,040:INFO :     top1: 0.70082
+2024-06-11 11:35:22,040:INFO :     top5: 0.97816
+2024-06-11 11:35:22,040:INFO :     eval_loss: 1.01358
+2024-06-11 11:35:22,040:INFO :     eval_top1: 0.65407
+2024-06-11 11:35:22,040:INFO :     eval_top5: 0.96578
+2024-06-11 11:35:22,040:DEBUG : ==> Start Training Epoch 7/15, lr=0.000941 
+2024-06-11 11:35:53,333:DEBUG : ==> Finished Epoch 7/15.
+2024-06-11 11:35:53,334:DEBUG : ++> Evaluate at epoch 7 ...
+2024-06-11 11:36:17,108:DEBUG : ++> Evaluate epoch 7 Finished.
+2024-06-11 11:36:17,109:INFO :     epoch: 7.00000
+2024-06-11 11:36:17,109:INFO :     loss: 0.80683
+2024-06-11 11:36:17,109:INFO :     top1: 0.71535
+2024-06-11 11:36:17,109:INFO :     top5: 0.97974
+2024-06-11 11:36:17,109:INFO :     eval_loss: 1.02753
+2024-06-11 11:36:17,109:INFO :     eval_top1: 0.65012
+2024-06-11 11:36:17,109:INFO :     eval_top5: 0.96282
+2024-06-11 11:36:17,109:DEBUG : ==> Start Training Epoch 8/15, lr=0.000932 
+2024-06-11 11:36:48,783:DEBUG : ==> Finished Epoch 8/15.
+2024-06-11 11:36:48,784:DEBUG : ++> Evaluate at epoch 8 ...
+2024-06-11 11:37:13,071:DEBUG : ++> Evaluate epoch 8 Finished.
+2024-06-11 11:37:13,071:INFO :     epoch: 8.00000
+2024-06-11 11:37:13,072:INFO :     loss: 0.77222
+2024-06-11 11:37:13,072:INFO :     top1: 0.72765
+2024-06-11 11:37:13,072:INFO :     top5: 0.98311
+2024-06-11 11:37:13,072:INFO :     eval_loss: 1.02868
+2024-06-11 11:37:13,072:INFO :     eval_top1: 0.65328
+2024-06-11 11:37:13,072:INFO :     eval_top5: 0.96203
+2024-06-11 11:37:13,073:DEBUG : ==> Start Training Epoch 9/15, lr=0.000923 
+2024-06-11 11:37:44,824:DEBUG : ==> Finished Epoch 9/15.
+2024-06-11 11:37:44,825:DEBUG : ++> Evaluate at epoch 9 ...
+2024-06-11 11:38:09,247:DEBUG : ++> Evaluate epoch 9 Finished.
+2024-06-11 11:38:09,248:INFO :     epoch: 9.00000
+2024-06-11 11:38:09,248:INFO :     loss: 0.74182
+2024-06-11 11:38:09,248:INFO :     top1: 0.73795
+2024-06-11 11:38:09,248:INFO :     top5: 0.98438
+2024-06-11 11:38:09,248:INFO :     eval_loss: 1.04313
+2024-06-11 11:38:09,248:INFO :     eval_top1: 0.64419
+2024-06-11 11:38:09,248:INFO :     eval_top5: 0.96479
+2024-06-11 11:38:09,249:DEBUG : ==> Start Training Epoch 10/15, lr=0.000914 
+2024-06-11 11:38:41,117:DEBUG : ==> Finished Epoch 10/15.
+2024-06-11 11:38:41,118:DEBUG : ++> Evaluate at epoch 10 ...
+2024-06-11 11:39:05,249:DEBUG : ++> Evaluate epoch 10 Finished.
+2024-06-11 11:39:05,250:INFO :     epoch: 10.00000
+2024-06-11 11:39:05,250:INFO :     loss: 0.70786
+2024-06-11 11:39:05,250:INFO :     top1: 0.75202
+2024-06-11 11:39:05,250:INFO :     top5: 0.98631
+2024-06-11 11:39:05,250:INFO :     eval_loss: 1.05426
+2024-06-11 11:39:05,250:INFO :     eval_top1: 0.64695
+2024-06-11 11:39:05,251:INFO :     eval_top5: 0.96301
+2024-06-11 11:39:05,251:INFO : Saving checkpoint: Saved\CIFAR10_VGG\E10_model.pth ...
+2024-06-11 11:39:05,365:INFO : Checkpoint saved.
+2024-06-11 11:39:05,366:DEBUG : ==> Start Training Epoch 11/15, lr=0.000904 
+2024-06-11 11:39:37,134:DEBUG : ==> Finished Epoch 11/15.
+2024-06-11 11:39:37,135:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-11 11:40:01,258:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-11 11:40:01,259:INFO : Saving checkpoint: Saved\CIFAR10_VGG\last_model.pth ...
+2024-06-11 11:40:01,359:INFO : Checkpoint saved.
+2024-06-11 11:49:25,321:INFO : Loading checkpoint: ./Saved/CIFAR10_VGG/last_model.pth ...
+2024-06-11 11:49:25,380:INFO : Checkpoint loaded.
+2024-06-11 11:49:25,380:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-11 11:49:45,040:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-11 11:51:24,553:INFO : ------------ New Training Session ------------
+2024-06-11 11:51:24,554:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-11 11:51:56,477:DEBUG : ==> Finished Epoch 1/15.
+2024-06-11 11:51:56,478:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-11 11:52:18,759:DEBUG : ++> Evaluate epoch 1 Finished.
+2024-06-11 11:52:18,759:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:52:18,822:INFO : Checkpoint saved.
+2024-06-11 11:52:18,822:INFO : Saved model on eval based on eval_top1 at this step. Previous: -inf, Current: 0.632120253164557
+2024-06-11 11:52:18,822:INFO :     epoch: 1.00000
+2024-06-11 11:52:18,822:INFO :     loss: 1.20711
+2024-06-11 11:52:18,823:INFO :     top1: 0.57775
+2024-06-11 11:52:18,823:INFO :     top5: 0.94593
+2024-06-11 11:52:18,823:INFO :     eval_loss: 1.06703
+2024-06-11 11:52:18,823:INFO :     eval_top1: 0.63212
+2024-06-11 11:52:18,823:INFO :     eval_top5: 0.96025
+2024-06-11 11:52:18,823:DEBUG : ==> Start Training Epoch 2/15, lr=0.000990 
+2024-06-11 11:52:47,697:DEBUG : ==> Finished Epoch 2/15.
+2024-06-11 11:52:47,698:DEBUG : ++> Evaluate at epoch 2 ...
+2024-06-11 11:53:08,791:DEBUG : ++> Evaluate epoch 2 Finished.
+2024-06-11 11:53:08,791:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:53:08,847:INFO : Checkpoint saved.
+2024-06-11 11:53:08,848:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.632120253164557, Current: 0.6439873417721519
+2024-06-11 11:53:08,848:INFO :     epoch: 2.00000
+2024-06-11 11:53:08,848:INFO :     loss: 1.04676
+2024-06-11 11:53:08,848:INFO :     top1: 0.63141
+2024-06-11 11:53:08,848:INFO :     top5: 0.96211
+2024-06-11 11:53:08,848:INFO :     eval_loss: 1.04287
+2024-06-11 11:53:08,848:INFO :     eval_top1: 0.64399
+2024-06-11 11:53:08,848:INFO :     eval_top5: 0.96123
+2024-06-11 11:53:08,848:DEBUG : ==> Start Training Epoch 3/15, lr=0.000980 
+2024-06-11 11:53:36,355:DEBUG : ==> Finished Epoch 3/15.
+2024-06-11 11:53:36,356:DEBUG : ++> Evaluate at epoch 3 ...
+2024-06-11 11:53:57,494:DEBUG : ++> Evaluate epoch 3 Finished.
+2024-06-11 11:53:57,494:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:53:57,548:INFO : Checkpoint saved.
+2024-06-11 11:53:57,549:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6439873417721519, Current: 0.646756329113924
+2024-06-11 11:53:57,549:INFO :     epoch: 3.00000
+2024-06-11 11:53:57,549:INFO :     loss: 0.98384
+2024-06-11 11:53:57,549:INFO :     top1: 0.65319
+2024-06-11 11:53:57,549:INFO :     top5: 0.96879
+2024-06-11 11:53:57,549:INFO :     eval_loss: 1.03666
+2024-06-11 11:53:57,549:INFO :     eval_top1: 0.64676
+2024-06-11 11:53:57,549:INFO :     eval_top5: 0.96479
+2024-06-11 11:53:57,549:DEBUG : ==> Start Training Epoch 4/15, lr=0.000970 
+2024-06-11 11:54:26,829:DEBUG : ==> Finished Epoch 4/15.
+2024-06-11 11:54:26,830:DEBUG : ++> Evaluate at epoch 4 ...
+2024-06-11 11:54:49,344:DEBUG : ++> Evaluate epoch 4 Finished.
+2024-06-11 11:54:49,345:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:54:49,424:INFO : Checkpoint saved.
+2024-06-11 11:54:49,425:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.646756329113924, Current: 0.6487341772151899
+2024-06-11 11:54:49,425:INFO :     epoch: 4.00000
+2024-06-11 11:54:49,425:INFO :     loss: 0.92901
+2024-06-11 11:54:49,425:INFO :     top1: 0.67418
+2024-06-11 11:54:49,425:INFO :     top5: 0.97379
+2024-06-11 11:54:49,425:INFO :     eval_loss: 1.02353
+2024-06-11 11:54:49,425:INFO :     eval_top1: 0.64873
+2024-06-11 11:54:49,425:INFO :     eval_top5: 0.96361
+2024-06-11 11:54:49,425:DEBUG : ==> Start Training Epoch 5/15, lr=0.000961 
+2024-06-11 11:55:19,173:DEBUG : ==> Finished Epoch 5/15.
+2024-06-11 11:55:19,174:DEBUG : ++> Evaluate at epoch 5 ...
+2024-06-11 11:55:41,595:DEBUG : ++> Evaluate epoch 5 Finished.
+2024-06-11 11:55:41,595:INFO :     epoch: 5.00000
+2024-06-11 11:55:41,595:INFO :     loss: 0.88817
+2024-06-11 11:55:41,595:INFO :     top1: 0.68870
+2024-06-11 11:55:41,596:INFO :     top5: 0.97523
+2024-06-11 11:55:41,596:INFO :     eval_loss: 1.02717
+2024-06-11 11:55:41,596:INFO :     eval_top1: 0.64616
+2024-06-11 11:55:41,596:INFO :     eval_top5: 0.96341
+2024-06-11 11:55:41,596:DEBUG : ==> Start Training Epoch 6/15, lr=0.000951 
+2024-06-11 11:56:11,052:DEBUG : ==> Finished Epoch 6/15.
+2024-06-11 11:56:11,053:DEBUG : ++> Evaluate at epoch 6 ...
+2024-06-11 11:56:33,900:DEBUG : ++> Evaluate epoch 6 Finished.
+2024-06-11 11:56:33,900:INFO :     epoch: 6.00000
+2024-06-11 11:56:33,901:INFO :     loss: 0.84371
+2024-06-11 11:56:33,901:INFO :     top1: 0.70468
+2024-06-11 11:56:33,901:INFO :     top5: 0.97685
+2024-06-11 11:56:33,901:INFO :     eval_loss: 1.02206
+2024-06-11 11:56:33,901:INFO :     eval_top1: 0.64676
+2024-06-11 11:56:33,901:INFO :     eval_top5: 0.96460
+2024-06-11 11:56:33,901:DEBUG : ==> Start Training Epoch 7/15, lr=0.000941 
+2024-06-11 11:57:05,393:DEBUG : ==> Finished Epoch 7/15.
+2024-06-11 11:57:05,394:DEBUG : ++> Evaluate at epoch 7 ...
+2024-06-11 11:57:28,277:DEBUG : ++> Evaluate epoch 7 Finished.
+2024-06-11 11:57:28,278:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:57:28,336:INFO : Checkpoint saved.
+2024-06-11 11:57:28,337:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6487341772151899, Current: 0.6536787974683544
+2024-06-11 11:57:28,337:INFO :     epoch: 7.00000
+2024-06-11 11:57:28,337:INFO :     loss: 0.80593
+2024-06-11 11:57:28,337:INFO :     top1: 0.71646
+2024-06-11 11:57:28,337:INFO :     top5: 0.98045
+2024-06-11 11:57:28,337:INFO :     eval_loss: 1.04010
+2024-06-11 11:57:28,337:INFO :     eval_top1: 0.65368
+2024-06-11 11:57:28,337:INFO :     eval_top5: 0.96262
+2024-06-11 11:57:28,337:DEBUG : ==> Start Training Epoch 8/15, lr=0.000932 
+2024-06-11 11:57:59,588:DEBUG : ==> Finished Epoch 8/15.
+2024-06-11 11:57:59,589:DEBUG : ++> Evaluate at epoch 8 ...
+2024-06-11 11:58:23,617:DEBUG : ++> Evaluate epoch 8 Finished.
+2024-06-11 11:58:23,617:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 11:58:23,678:INFO : Checkpoint saved.
+2024-06-11 11:58:23,679:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6536787974683544, Current: 0.6606012658227848
+2024-06-11 11:58:23,679:INFO :     epoch: 8.00000
+2024-06-11 11:58:23,679:INFO :     loss: 0.76861
+2024-06-11 11:58:23,679:INFO :     top1: 0.72987
+2024-06-11 11:58:23,679:INFO :     top5: 0.98253
+2024-06-11 11:58:23,679:INFO :     eval_loss: 1.04548
+2024-06-11 11:58:23,679:INFO :     eval_top1: 0.66060
+2024-06-11 11:58:23,679:INFO :     eval_top5: 0.96222
+2024-06-11 11:58:23,679:DEBUG : ==> Start Training Epoch 9/15, lr=0.000923 
+2024-06-11 11:58:54,929:DEBUG : ==> Finished Epoch 9/15.
+2024-06-11 11:58:54,930:DEBUG : ++> Evaluate at epoch 9 ...
+2024-06-11 11:59:18,786:DEBUG : ++> Evaluate epoch 9 Finished.
+2024-06-11 11:59:18,786:INFO :     epoch: 9.00000
+2024-06-11 11:59:18,787:INFO :     loss: 0.73577
+2024-06-11 11:59:18,787:INFO :     top1: 0.74134
+2024-06-11 11:59:18,787:INFO :     top5: 0.98418
+2024-06-11 11:59:18,787:INFO :     eval_loss: 1.06154
+2024-06-11 11:59:18,787:INFO :     eval_top1: 0.64557
+2024-06-11 11:59:18,787:INFO :     eval_top5: 0.96381
+2024-06-11 11:59:18,787:DEBUG : ==> Start Training Epoch 10/15, lr=0.000914 
+2024-06-11 11:59:49,694:DEBUG : ==> Finished Epoch 10/15.
+2024-06-11 11:59:49,695:DEBUG : ++> Evaluate at epoch 10 ...
+2024-06-11 12:00:14,652:DEBUG : ++> Evaluate epoch 10 Finished.
+2024-06-11 12:00:14,652:INFO :     epoch: 10.00000
+2024-06-11 12:00:14,652:INFO :     loss: 0.70886
+2024-06-11 12:00:14,653:INFO :     top1: 0.75115
+2024-06-11 12:00:14,653:INFO :     top5: 0.98535
+2024-06-11 12:00:14,653:INFO :     eval_loss: 1.06283
+2024-06-11 12:00:14,653:INFO :     eval_top1: 0.63983
+2024-06-11 12:00:14,653:INFO :     eval_top5: 0.96341
+2024-06-11 12:00:14,653:INFO : Saving checkpoint: Saved\CIFAR10_VGG\E10_model.pth ...
+2024-06-11 12:00:14,769:INFO : Checkpoint saved.
+2024-06-11 12:00:14,770:DEBUG : ==> Start Training Epoch 11/15, lr=0.000904 
+2024-06-11 12:00:46,305:DEBUG : ==> Finished Epoch 11/15.
+2024-06-11 12:00:46,306:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-11 12:01:10,028:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-11 12:01:10,028:INFO :     epoch: 11.00000
+2024-06-11 12:01:10,029:INFO :     loss: 0.67921
+2024-06-11 12:01:10,029:INFO :     top1: 0.76161
+2024-06-11 12:01:10,029:INFO :     top5: 0.98746
+2024-06-11 12:01:10,029:INFO :     eval_loss: 1.07192
+2024-06-11 12:01:10,029:INFO :     eval_top1: 0.64854
+2024-06-11 12:01:10,029:INFO :     eval_top5: 0.96598
+2024-06-11 12:01:10,029:DEBUG : ==> Start Training Epoch 12/15, lr=0.000895 
+2024-06-11 12:01:41,080:DEBUG : ==> Finished Epoch 12/15.
+2024-06-11 12:01:41,081:DEBUG : ++> Evaluate at epoch 12 ...
+2024-06-11 12:02:05,143:DEBUG : ++> Evaluate epoch 12 Finished.
+2024-06-11 12:02:05,144:INFO :     epoch: 12.00000
+2024-06-11 12:02:05,144:INFO :     loss: 0.65748
+2024-06-11 12:02:05,144:INFO :     top1: 0.76998
+2024-06-11 12:02:05,144:INFO :     top5: 0.98797
+2024-06-11 12:02:05,144:INFO :     eval_loss: 1.06823
+2024-06-11 12:02:05,144:INFO :     eval_top1: 0.64873
+2024-06-11 12:02:05,144:INFO :     eval_top5: 0.96104
+2024-06-11 12:02:05,144:DEBUG : ==> Start Training Epoch 13/15, lr=0.000886 
+2024-06-11 12:02:36,394:DEBUG : ==> Finished Epoch 13/15.
+2024-06-11 12:02:36,395:DEBUG : ++> Evaluate at epoch 13 ...
+2024-06-11 12:03:00,301:DEBUG : ++> Evaluate epoch 13 Finished.
+2024-06-11 12:03:00,301:INFO : Saving checkpoint: Saved\CIFAR10_VGG\last_model.pth ...
+2024-06-11 12:03:00,364:INFO : Checkpoint saved.
+2024-06-11 12:44:27,345:INFO : Loading checkpoint: ./Saved/CIFAR10_VGG/last_model.pth ...
+2024-06-11 12:44:27,407:INFO : Checkpoint loaded.
+2024-06-11 12:44:27,408:DEBUG : ++> Evaluate at epoch 13 ...
+2024-06-11 12:44:46,886:DEBUG : ++> Evaluate epoch 13 Finished.
+2024-06-11 17:18:09,371:INFO : ------------ New Training Session ------------
+2024-06-11 17:18:09,380:DEBUG : ==> Start Training Epoch 1/15, lr=0.001000 
+2024-06-11 17:19:31,657:DEBUG : ==> Finished Epoch 1/15.
+2024-06-11 17:19:31,658:DEBUG : ++> Evaluate at epoch 1 ...
+2024-06-11 17:20:01,065:DEBUG : ++> Evaluate epoch 1 Finished.
+2024-06-11 17:20:01,066:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 17:20:01,157:INFO : Checkpoint saved.
+2024-06-11 17:20:01,157:INFO : Saved model on eval based on eval_top1 at this step. Previous: -inf, Current: 0.6299446202531646
+2024-06-11 17:20:01,158:INFO :     epoch: 1.00000
+2024-06-11 17:20:01,158:INFO :     loss: 1.20367
+2024-06-11 17:20:01,158:INFO :     top1: 0.57906
+2024-06-11 17:20:01,158:INFO :     top5: 0.94669
+2024-06-11 17:20:01,158:INFO :     eval_loss: 1.06523
+2024-06-11 17:20:01,158:INFO :     eval_top1: 0.62994
+2024-06-11 17:20:01,158:INFO :     eval_top5: 0.95767
+2024-06-11 17:20:01,159:DEBUG : ==> Start Training Epoch 2/15, lr=0.000990 
+2024-06-11 17:21:06,750:DEBUG : ==> Finished Epoch 2/15.
+2024-06-11 17:21:06,751:DEBUG : ++> Evaluate at epoch 2 ...
+2024-06-11 17:21:36,786:DEBUG : ++> Evaluate epoch 2 Finished.
+2024-06-11 17:21:36,786:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 17:21:36,855:INFO : Checkpoint saved.
+2024-06-11 17:21:36,855:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6299446202531646, Current: 0.6394382911392406
+2024-06-11 17:21:36,855:INFO :     epoch: 2.00000
+2024-06-11 17:21:36,855:INFO :     loss: 1.04818
+2024-06-11 17:21:36,855:INFO :     top1: 0.63128
+2024-06-11 17:21:36,855:INFO :     top5: 0.96225
+2024-06-11 17:21:36,855:INFO :     eval_loss: 1.04839
+2024-06-11 17:21:36,855:INFO :     eval_top1: 0.63944
+2024-06-11 17:21:36,855:INFO :     eval_top5: 0.95688
+2024-06-11 17:21:36,856:DEBUG : ==> Start Training Epoch 3/15, lr=0.000980 
+2024-06-11 17:22:44,045:DEBUG : ==> Finished Epoch 3/15.
+2024-06-11 17:22:44,046:DEBUG : ++> Evaluate at epoch 3 ...
+2024-06-11 17:23:14,704:DEBUG : ++> Evaluate epoch 3 Finished.
+2024-06-11 17:23:14,704:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 17:23:14,773:INFO : Checkpoint saved.
+2024-06-11 17:23:14,773:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6394382911392406, Current: 0.6459651898734177
+2024-06-11 17:23:14,773:INFO :     epoch: 3.00000
+2024-06-11 17:23:14,773:INFO :     loss: 0.98062
+2024-06-11 17:23:14,773:INFO :     top1: 0.65388
+2024-06-11 17:23:14,773:INFO :     top5: 0.96902
+2024-06-11 17:23:14,773:INFO :     eval_loss: 1.02099
+2024-06-11 17:23:14,773:INFO :     eval_top1: 0.64597
+2024-06-11 17:23:14,773:INFO :     eval_top5: 0.96460
+2024-06-11 17:23:14,773:DEBUG : ==> Start Training Epoch 4/15, lr=0.000970 
+2024-06-11 17:24:23,200:DEBUG : ==> Finished Epoch 4/15.
+2024-06-11 17:24:23,200:DEBUG : ++> Evaluate at epoch 4 ...
+2024-06-11 17:24:52,972:DEBUG : ++> Evaluate epoch 4 Finished.
+2024-06-11 17:24:52,973:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 17:24:53,045:INFO : Checkpoint saved.
+2024-06-11 17:24:53,045:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6459651898734177, Current: 0.647745253164557
+2024-06-11 17:24:53,045:INFO :     epoch: 4.00000
+2024-06-11 17:24:53,045:INFO :     loss: 0.93327
+2024-06-11 17:24:53,045:INFO :     top1: 0.67079
+2024-06-11 17:24:53,045:INFO :     top5: 0.97243
+2024-06-11 17:24:53,045:INFO :     eval_loss: 1.01296
+2024-06-11 17:24:53,045:INFO :     eval_top1: 0.64775
+2024-06-11 17:24:53,045:INFO :     eval_top5: 0.96321
+2024-06-11 17:24:53,046:DEBUG : ==> Start Training Epoch 5/15, lr=0.000961 
+2024-06-11 17:26:02,383:DEBUG : ==> Finished Epoch 5/15.
+2024-06-11 17:26:02,385:DEBUG : ++> Evaluate at epoch 5 ...
+2024-06-11 17:26:32,453:DEBUG : ++> Evaluate epoch 5 Finished.
+2024-06-11 17:26:32,453:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 17:26:32,525:INFO : Checkpoint saved.
+2024-06-11 17:26:32,525:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.647745253164557, Current: 0.6507120253164557
+2024-06-11 17:26:32,525:INFO :     epoch: 5.00000
+2024-06-11 17:26:32,525:INFO :     loss: 0.88839
+2024-06-11 17:26:32,526:INFO :     top1: 0.68759
+2024-06-11 17:26:32,526:INFO :     top5: 0.97512
+2024-06-11 17:26:32,526:INFO :     eval_loss: 1.02138
+2024-06-11 17:26:32,526:INFO :     eval_top1: 0.65071
+2024-06-11 17:26:32,526:INFO :     eval_top5: 0.95945
+2024-06-11 17:26:32,526:DEBUG : ==> Start Training Epoch 6/15, lr=0.000951 
+2024-06-11 17:27:40,270:DEBUG : ==> Finished Epoch 6/15.
+2024-06-11 17:27:40,271:DEBUG : ++> Evaluate at epoch 6 ...
+2024-06-11 17:28:10,010:DEBUG : ++> Evaluate epoch 6 Finished.
+2024-06-11 17:28:10,010:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 17:28:10,089:INFO : Checkpoint saved.
+2024-06-11 17:28:10,090:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6507120253164557, Current: 0.6513053797468354
+2024-06-11 17:28:10,090:INFO :     epoch: 6.00000
+2024-06-11 17:28:10,090:INFO :     loss: 0.84404
+2024-06-11 17:28:10,090:INFO :     top1: 0.70319
+2024-06-11 17:28:10,091:INFO :     top5: 0.97812
+2024-06-11 17:28:10,091:INFO :     eval_loss: 1.02126
+2024-06-11 17:28:10,091:INFO :     eval_top1: 0.65131
+2024-06-11 17:28:10,091:INFO :     eval_top5: 0.96262
+2024-06-11 17:28:10,091:DEBUG : ==> Start Training Epoch 7/15, lr=0.000941 
+2024-06-11 17:29:15,522:DEBUG : ==> Finished Epoch 7/15.
+2024-06-11 17:29:15,523:DEBUG : ++> Evaluate at epoch 7 ...
+2024-06-11 17:29:45,008:DEBUG : ++> Evaluate epoch 7 Finished.
+2024-06-11 17:29:45,008:INFO :     epoch: 7.00000
+2024-06-11 17:29:45,008:INFO :     loss: 0.80876
+2024-06-11 17:29:45,008:INFO :     top1: 0.71549
+2024-06-11 17:29:45,009:INFO :     top5: 0.98076
+2024-06-11 17:29:45,009:INFO :     eval_loss: 1.03360
+2024-06-11 17:29:45,009:INFO :     eval_top1: 0.64873
+2024-06-11 17:29:45,009:INFO :     eval_top5: 0.96282
+2024-06-11 17:29:45,009:DEBUG : ==> Start Training Epoch 8/15, lr=0.000932 
+2024-06-11 17:30:54,581:DEBUG : ==> Finished Epoch 8/15.
+2024-06-11 17:30:54,582:DEBUG : ++> Evaluate at epoch 8 ...
+2024-06-11 17:31:25,549:DEBUG : ++> Evaluate epoch 8 Finished.
+2024-06-11 17:31:25,549:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 17:31:25,614:INFO : Checkpoint saved.
+2024-06-11 17:31:25,614:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6513053797468354, Current: 0.6552610759493671
+2024-06-11 17:31:25,615:INFO :     epoch: 8.00000
+2024-06-11 17:31:25,615:INFO :     loss: 0.77137
+2024-06-11 17:31:25,615:INFO :     top1: 0.72976
+2024-06-11 17:31:25,615:INFO :     top5: 0.98267
+2024-06-11 17:31:25,615:INFO :     eval_loss: 1.02248
+2024-06-11 17:31:25,615:INFO :     eval_top1: 0.65526
+2024-06-11 17:31:25,615:INFO :     eval_top5: 0.96460
+2024-06-11 17:31:25,616:DEBUG : ==> Start Training Epoch 9/15, lr=0.000923 
+2024-06-11 17:32:38,002:DEBUG : ==> Finished Epoch 9/15.
+2024-06-11 17:32:38,003:DEBUG : ++> Evaluate at epoch 9 ...
+2024-06-11 17:33:08,338:DEBUG : ++> Evaluate epoch 9 Finished.
+2024-06-11 17:33:08,339:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 17:33:08,474:INFO : Checkpoint saved.
+2024-06-11 17:33:08,474:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6552610759493671, Current: 0.6560522151898734
+2024-06-11 17:33:08,475:INFO :     epoch: 9.00000
+2024-06-11 17:33:08,475:INFO :     loss: 0.74218
+2024-06-11 17:33:08,475:INFO :     top1: 0.73966
+2024-06-11 17:33:08,475:INFO :     top5: 0.98331
+2024-06-11 17:33:08,476:INFO :     eval_loss: 1.03165
+2024-06-11 17:33:08,476:INFO :     eval_top1: 0.65605
+2024-06-11 17:33:08,476:INFO :     eval_top5: 0.96381
+2024-06-11 17:33:08,476:DEBUG : ==> Start Training Epoch 10/15, lr=0.000914 
+2024-06-11 17:34:13,013:DEBUG : ==> Finished Epoch 10/15.
+2024-06-11 17:34:13,014:DEBUG : ++> Evaluate at epoch 10 ...
+2024-06-11 17:34:39,327:DEBUG : ++> Evaluate epoch 10 Finished.
+2024-06-11 17:34:39,328:INFO : Saving checkpoint: Saved\CIFAR10_VGG\best_val_model.pth ...
+2024-06-11 17:34:39,416:INFO : Checkpoint saved.
+2024-06-11 17:34:39,416:INFO : Saved model on eval based on eval_top1 at this step. Previous: 0.6560522151898734, Current: 0.6582278481012658
+2024-06-11 17:34:39,416:INFO :     epoch: 10.00000
+2024-06-11 17:34:39,417:INFO :     loss: 0.70917
+2024-06-11 17:34:39,417:INFO :     top1: 0.75346
+2024-06-11 17:34:39,417:INFO :     top5: 0.98493
+2024-06-11 17:34:39,417:INFO :     eval_loss: 1.02557
+2024-06-11 17:34:39,417:INFO :     eval_top1: 0.65823
+2024-06-11 17:34:39,417:INFO :     eval_top5: 0.96440
+2024-06-11 17:34:39,417:INFO : Saving checkpoint: Saved\CIFAR10_VGG\E10_model.pth ...
+2024-06-11 17:34:39,534:INFO : Checkpoint saved.
+2024-06-11 17:34:39,534:DEBUG : ==> Start Training Epoch 11/15, lr=0.000904 
+2024-06-11 17:35:48,048:DEBUG : ==> Finished Epoch 11/15.
+2024-06-11 17:35:48,049:DEBUG : ++> Evaluate at epoch 11 ...
+2024-06-11 17:36:18,274:DEBUG : ++> Evaluate epoch 11 Finished.
+2024-06-11 17:36:18,274:INFO :     epoch: 11.00000
+2024-06-11 17:36:18,275:INFO :     loss: 0.67915
+2024-06-11 17:36:18,275:INFO :     top1: 0.76154
+2024-06-11 17:36:18,275:INFO :     top5: 0.98724
+2024-06-11 17:36:18,275:INFO :     eval_loss: 1.05554
+2024-06-11 17:36:18,275:INFO :     eval_top1: 0.64102
+2024-06-11 17:36:18,275:INFO :     eval_top5: 0.96262
+2024-06-11 17:36:18,276:DEBUG : ==> Start Training Epoch 12/15, lr=0.000895 
+2024-06-11 17:37:26,054:DEBUG : ==> Finished Epoch 12/15.
+2024-06-11 17:37:26,055:DEBUG : ++> Evaluate at epoch 12 ...
+2024-06-11 17:37:57,228:DEBUG : ++> Evaluate epoch 12 Finished.
+2024-06-11 17:37:57,228:INFO :     epoch: 12.00000
+2024-06-11 17:37:57,228:INFO :     loss: 0.66179
+2024-06-11 17:37:57,228:INFO :     top1: 0.76609
+2024-06-11 17:37:57,228:INFO :     top5: 0.98850
+2024-06-11 17:37:57,228:INFO :     eval_loss: 1.05991
+2024-06-11 17:37:57,228:INFO :     eval_top1: 0.64320
+2024-06-11 17:37:57,229:INFO :     eval_top5: 0.96420
+2024-06-11 17:37:57,229:DEBUG : ==> Start Training Epoch 13/15, lr=0.000886 
+2024-06-11 17:39:07,293:DEBUG : ==> Finished Epoch 13/15.
+2024-06-11 17:39:07,294:DEBUG : ++> Evaluate at epoch 13 ...
+2024-06-11 17:39:39,512:DEBUG : ++> Evaluate epoch 13 Finished.
+2024-06-11 17:39:39,513:INFO :     epoch: 13.00000
+2024-06-11 17:39:39,513:INFO :     loss: 0.63361
+2024-06-11 17:39:39,513:INFO :     top1: 0.77659
+2024-06-11 17:39:39,513:INFO :     top5: 0.98904
+2024-06-11 17:39:39,513:INFO :     eval_loss: 1.09420
+2024-06-11 17:39:39,513:INFO :     eval_top1: 0.64695
+2024-06-11 17:39:39,513:INFO :     eval_top5: 0.96282
+2024-06-11 17:39:39,514:DEBUG : ==> Start Training Epoch 14/15, lr=0.000878 
+2024-06-11 17:40:38,240:DEBUG : ==> Finished Epoch 14/15.
+2024-06-11 17:40:38,241:DEBUG : ++> Evaluate at epoch 14 ...
+2024-06-11 17:41:05,241:DEBUG : ++> Evaluate epoch 14 Finished.
+2024-06-11 17:41:05,241:INFO :     epoch: 14.00000
+2024-06-11 17:41:05,241:INFO :     loss: 0.61329
+2024-06-11 17:41:05,241:INFO :     top1: 0.78394
+2024-06-11 17:41:05,241:INFO :     top5: 0.98966
+2024-06-11 17:41:05,242:INFO :     eval_loss: 1.13609
+2024-06-11 17:41:05,242:INFO :     eval_top1: 0.63687
+2024-06-11 17:41:05,242:INFO :     eval_top5: 0.95807
+2024-06-11 17:41:05,242:DEBUG : ==> Start Training Epoch 15/15, lr=0.000869 
+2024-06-11 17:42:00,226:DEBUG : ==> Finished Epoch 15/15.
+2024-06-11 17:42:00,227:DEBUG : ++> Evaluate at epoch 15 ...
+2024-06-11 17:42:30,707:DEBUG : ++> Evaluate epoch 15 Finished.
+2024-06-11 17:42:30,707:INFO : Saving checkpoint: Saved\CIFAR10_VGG\last_model.pth ...
+2024-06-11 17:42:30,842:INFO : Checkpoint saved.
+2024-06-11 17:42:44,120:INFO : Loading checkpoint: ./Saved/CIFAR10_VGG_B1/last_model.pth ...
